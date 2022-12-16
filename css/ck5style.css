@@ -32,6 +32,7 @@
   } */
   /* rtl:begin:remove */
   /* rtl:end:remove */
+  @import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 }
 .ck-content :root {
   --bs-blue: #003CC5;
@@ -179,9 +180,11 @@
   margin-bottom: 1rem;
 }
 .ck-content abbr[title] {
-  text-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
   cursor: help;
-  text-decoration-skip-ink: none;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
 }
 .ck-content address {
   margin-bottom: 1rem;
@@ -410,6 +413,10 @@ a > .ck-content code {
 }
 .ck-content ::-webkit-color-swatch-wrapper {
   padding: 0;
+}
+.ck-content ::-webkit-file-upload-button {
+  font: inherit;
+  -webkit-appearance: button;
 }
 .ck-content ::file-selector-button {
   font: inherit;
@@ -894,51 +901,51 @@ a > .ck-content code {
     margin-left: 91.66666667%;
   }
   .ck-content .g-sm-0,
-  .ck-content .gx-sm-0 {
+.ck-content .gx-sm-0 {
     --bs-gutter-x: 0;
   }
   .ck-content .g-sm-0,
-  .ck-content .gy-sm-0 {
+.ck-content .gy-sm-0 {
     --bs-gutter-y: 0;
   }
   .ck-content .g-sm-1,
-  .ck-content .gx-sm-1 {
+.ck-content .gx-sm-1 {
     --bs-gutter-x: 0.25rem;
   }
   .ck-content .g-sm-1,
-  .ck-content .gy-sm-1 {
+.ck-content .gy-sm-1 {
     --bs-gutter-y: 0.25rem;
   }
   .ck-content .g-sm-2,
-  .ck-content .gx-sm-2 {
+.ck-content .gx-sm-2 {
     --bs-gutter-x: 0.5rem;
   }
   .ck-content .g-sm-2,
-  .ck-content .gy-sm-2 {
+.ck-content .gy-sm-2 {
     --bs-gutter-y: 0.5rem;
   }
   .ck-content .g-sm-3,
-  .ck-content .gx-sm-3 {
+.ck-content .gx-sm-3 {
     --bs-gutter-x: 1rem;
   }
   .ck-content .g-sm-3,
-  .ck-content .gy-sm-3 {
+.ck-content .gy-sm-3 {
     --bs-gutter-y: 1rem;
   }
   .ck-content .g-sm-4,
-  .ck-content .gx-sm-4 {
+.ck-content .gx-sm-4 {
     --bs-gutter-x: 1.5rem;
   }
   .ck-content .g-sm-4,
-  .ck-content .gy-sm-4 {
+.ck-content .gy-sm-4 {
     --bs-gutter-y: 1.5rem;
   }
   .ck-content .g-sm-5,
-  .ck-content .gx-sm-5 {
+.ck-content .gx-sm-5 {
     --bs-gutter-x: 3rem;
   }
   .ck-content .g-sm-5,
-  .ck-content .gy-sm-5 {
+.ck-content .gy-sm-5 {
     --bs-gutter-y: 3rem;
   }
 }
@@ -1063,51 +1070,51 @@ a > .ck-content code {
     margin-left: 91.66666667%;
   }
   .ck-content .g-md-0,
-  .ck-content .gx-md-0 {
+.ck-content .gx-md-0 {
     --bs-gutter-x: 0;
   }
   .ck-content .g-md-0,
-  .ck-content .gy-md-0 {
+.ck-content .gy-md-0 {
     --bs-gutter-y: 0;
   }
   .ck-content .g-md-1,
-  .ck-content .gx-md-1 {
+.ck-content .gx-md-1 {
     --bs-gutter-x: 0.25rem;
   }
   .ck-content .g-md-1,
-  .ck-content .gy-md-1 {
+.ck-content .gy-md-1 {
     --bs-gutter-y: 0.25rem;
   }
   .ck-content .g-md-2,
-  .ck-content .gx-md-2 {
+.ck-content .gx-md-2 {
     --bs-gutter-x: 0.5rem;
   }
   .ck-content .g-md-2,
-  .ck-content .gy-md-2 {
+.ck-content .gy-md-2 {
     --bs-gutter-y: 0.5rem;
   }
   .ck-content .g-md-3,
-  .ck-content .gx-md-3 {
+.ck-content .gx-md-3 {
     --bs-gutter-x: 1rem;
   }
   .ck-content .g-md-3,
-  .ck-content .gy-md-3 {
+.ck-content .gy-md-3 {
     --bs-gutter-y: 1rem;
   }
   .ck-content .g-md-4,
-  .ck-content .gx-md-4 {
+.ck-content .gx-md-4 {
     --bs-gutter-x: 1.5rem;
   }
   .ck-content .g-md-4,
-  .ck-content .gy-md-4 {
+.ck-content .gy-md-4 {
     --bs-gutter-y: 1.5rem;
   }
   .ck-content .g-md-5,
-  .ck-content .gx-md-5 {
+.ck-content .gx-md-5 {
     --bs-gutter-x: 3rem;
   }
   .ck-content .g-md-5,
-  .ck-content .gy-md-5 {
+.ck-content .gy-md-5 {
     --bs-gutter-y: 3rem;
   }
 }
@@ -1232,51 +1239,51 @@ a > .ck-content code {
     margin-left: 91.66666667%;
   }
   .ck-content .g-lg-0,
-  .ck-content .gx-lg-0 {
+.ck-content .gx-lg-0 {
     --bs-gutter-x: 0;
   }
   .ck-content .g-lg-0,
-  .ck-content .gy-lg-0 {
+.ck-content .gy-lg-0 {
     --bs-gutter-y: 0;
   }
   .ck-content .g-lg-1,
-  .ck-content .gx-lg-1 {
+.ck-content .gx-lg-1 {
     --bs-gutter-x: 0.25rem;
   }
   .ck-content .g-lg-1,
-  .ck-content .gy-lg-1 {
+.ck-content .gy-lg-1 {
     --bs-gutter-y: 0.25rem;
   }
   .ck-content .g-lg-2,
-  .ck-content .gx-lg-2 {
+.ck-content .gx-lg-2 {
     --bs-gutter-x: 0.5rem;
   }
   .ck-content .g-lg-2,
-  .ck-content .gy-lg-2 {
+.ck-content .gy-lg-2 {
     --bs-gutter-y: 0.5rem;
   }
   .ck-content .g-lg-3,
-  .ck-content .gx-lg-3 {
+.ck-content .gx-lg-3 {
     --bs-gutter-x: 1rem;
   }
   .ck-content .g-lg-3,
-  .ck-content .gy-lg-3 {
+.ck-content .gy-lg-3 {
     --bs-gutter-y: 1rem;
   }
   .ck-content .g-lg-4,
-  .ck-content .gx-lg-4 {
+.ck-content .gx-lg-4 {
     --bs-gutter-x: 1.5rem;
   }
   .ck-content .g-lg-4,
-  .ck-content .gy-lg-4 {
+.ck-content .gy-lg-4 {
     --bs-gutter-y: 1.5rem;
   }
   .ck-content .g-lg-5,
-  .ck-content .gx-lg-5 {
+.ck-content .gx-lg-5 {
     --bs-gutter-x: 3rem;
   }
   .ck-content .g-lg-5,
-  .ck-content .gy-lg-5 {
+.ck-content .gy-lg-5 {
     --bs-gutter-y: 3rem;
   }
 }
@@ -1401,51 +1408,51 @@ a > .ck-content code {
     margin-left: 91.66666667%;
   }
   .ck-content .g-xl-0,
-  .ck-content .gx-xl-0 {
+.ck-content .gx-xl-0 {
     --bs-gutter-x: 0;
   }
   .ck-content .g-xl-0,
-  .ck-content .gy-xl-0 {
+.ck-content .gy-xl-0 {
     --bs-gutter-y: 0;
   }
   .ck-content .g-xl-1,
-  .ck-content .gx-xl-1 {
+.ck-content .gx-xl-1 {
     --bs-gutter-x: 0.25rem;
   }
   .ck-content .g-xl-1,
-  .ck-content .gy-xl-1 {
+.ck-content .gy-xl-1 {
     --bs-gutter-y: 0.25rem;
   }
   .ck-content .g-xl-2,
-  .ck-content .gx-xl-2 {
+.ck-content .gx-xl-2 {
     --bs-gutter-x: 0.5rem;
   }
   .ck-content .g-xl-2,
-  .ck-content .gy-xl-2 {
+.ck-content .gy-xl-2 {
     --bs-gutter-y: 0.5rem;
   }
   .ck-content .g-xl-3,
-  .ck-content .gx-xl-3 {
+.ck-content .gx-xl-3 {
     --bs-gutter-x: 1rem;
   }
   .ck-content .g-xl-3,
-  .ck-content .gy-xl-3 {
+.ck-content .gy-xl-3 {
     --bs-gutter-y: 1rem;
   }
   .ck-content .g-xl-4,
-  .ck-content .gx-xl-4 {
+.ck-content .gx-xl-4 {
     --bs-gutter-x: 1.5rem;
   }
   .ck-content .g-xl-4,
-  .ck-content .gy-xl-4 {
+.ck-content .gy-xl-4 {
     --bs-gutter-y: 1.5rem;
   }
   .ck-content .g-xl-5,
-  .ck-content .gx-xl-5 {
+.ck-content .gx-xl-5 {
     --bs-gutter-x: 3rem;
   }
   .ck-content .g-xl-5,
-  .ck-content .gy-xl-5 {
+.ck-content .gy-xl-5 {
     --bs-gutter-y: 3rem;
   }
 }
@@ -1570,51 +1577,51 @@ a > .ck-content code {
     margin-left: 91.66666667%;
   }
   .ck-content .g-xxl-0,
-  .ck-content .gx-xxl-0 {
+.ck-content .gx-xxl-0 {
     --bs-gutter-x: 0;
   }
   .ck-content .g-xxl-0,
-  .ck-content .gy-xxl-0 {
+.ck-content .gy-xxl-0 {
     --bs-gutter-y: 0;
   }
   .ck-content .g-xxl-1,
-  .ck-content .gx-xxl-1 {
+.ck-content .gx-xxl-1 {
     --bs-gutter-x: 0.25rem;
   }
   .ck-content .g-xxl-1,
-  .ck-content .gy-xxl-1 {
+.ck-content .gy-xxl-1 {
     --bs-gutter-y: 0.25rem;
   }
   .ck-content .g-xxl-2,
-  .ck-content .gx-xxl-2 {
+.ck-content .gx-xxl-2 {
     --bs-gutter-x: 0.5rem;
   }
   .ck-content .g-xxl-2,
-  .ck-content .gy-xxl-2 {
+.ck-content .gy-xxl-2 {
     --bs-gutter-y: 0.5rem;
   }
   .ck-content .g-xxl-3,
-  .ck-content .gx-xxl-3 {
+.ck-content .gx-xxl-3 {
     --bs-gutter-x: 1rem;
   }
   .ck-content .g-xxl-3,
-  .ck-content .gy-xxl-3 {
+.ck-content .gy-xxl-3 {
     --bs-gutter-y: 1rem;
   }
   .ck-content .g-xxl-4,
-  .ck-content .gx-xxl-4 {
+.ck-content .gx-xxl-4 {
     --bs-gutter-x: 1.5rem;
   }
   .ck-content .g-xxl-4,
-  .ck-content .gy-xxl-4 {
+.ck-content .gy-xxl-4 {
     --bs-gutter-y: 1.5rem;
   }
   .ck-content .g-xxl-5,
-  .ck-content .gx-xxl-5 {
+.ck-content .gx-xxl-5 {
     --bs-gutter-x: 3rem;
   }
   .ck-content .g-xxl-5,
-  .ck-content .gy-xxl-5 {
+.ck-content .gy-xxl-5 {
     --bs-gutter-y: 3rem;
   }
 }
@@ -1858,7 +1865,9 @@ a > .ck-content code {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   border-radius: 0.375rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -1883,6 +1892,14 @@ a > .ck-content code {
 .ck-content .form-control::-webkit-date-and-time-value {
   height: 1.5em;
 }
+.ck-content .form-control::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+.ck-content .form-control:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
 .ck-content .form-control::placeholder {
   color: #6c757d;
   opacity: 1;
@@ -1891,10 +1908,27 @@ a > .ck-content code {
   background-color: #e9ecef;
   opacity: 1;
 }
+.ck-content .form-control::-webkit-file-upload-button {
+  padding: 0.375rem 0.75rem;
+  margin: -0.375rem -0.75rem;
+  -webkit-margin-end: 0.75rem;
+          margin-inline-end: 0.75rem;
+  color: #212529;
+  background-color: #e9ecef;
+  pointer-events: none;
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+  border-inline-end-width: 1px;
+  border-radius: 0;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
 .ck-content .form-control::file-selector-button {
   padding: 0.375rem 0.75rem;
   margin: -0.375rem -0.75rem;
-  margin-inline-end: 0.75rem;
+  -webkit-margin-end: 0.75rem;
+          margin-inline-end: 0.75rem;
   color: #212529;
   background-color: #e9ecef;
   pointer-events: none;
@@ -1906,9 +1940,16 @@ a > .ck-content code {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
+  .ck-content .form-control::-webkit-file-upload-button {
+    -webkit-transition: none;
+    transition: none;
+  }
   .ck-content .form-control::file-selector-button {
     transition: none;
   }
+}
+.ck-content .form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
+  background-color: #dde0e3;
 }
 .ck-content .form-control:hover:not(:disabled):not([readonly])::file-selector-button {
   background-color: #dde0e3;
@@ -1937,10 +1978,17 @@ a > .ck-content code {
   font-size: 0.875rem;
   border-radius: 0.25rem;
 }
+.ck-content .form-control-sm::-webkit-file-upload-button {
+  padding: 0.25rem 0.5rem;
+  margin: -0.25rem -0.5rem;
+  -webkit-margin-end: 0.5rem;
+          margin-inline-end: 0.5rem;
+}
 .ck-content .form-control-sm::file-selector-button {
   padding: 0.25rem 0.5rem;
   margin: -0.25rem -0.5rem;
-  margin-inline-end: 0.5rem;
+  -webkit-margin-end: 0.5rem;
+          margin-inline-end: 0.5rem;
 }
 .ck-content .form-control-lg {
   min-height: calc(1.5em + 1rem + 2px);
@@ -1948,10 +1996,17 @@ a > .ck-content code {
   font-size: 1.25rem;
   border-radius: 0.5rem;
 }
+.ck-content .form-control-lg::-webkit-file-upload-button {
+  padding: 0.5rem 1rem;
+  margin: -0.5rem -1rem;
+  -webkit-margin-end: 1rem;
+          margin-inline-end: 1rem;
+}
 .ck-content .form-control-lg::file-selector-button {
   padding: 0.5rem 1rem;
   margin: -0.5rem -1rem;
-  margin-inline-end: 1rem;
+  -webkit-margin-end: 1rem;
+          margin-inline-end: 1rem;
 }
 .ck-content textarea.form-control {
   min-height: calc(1.5em + 0.75rem + 2px);
@@ -2000,7 +2055,9 @@ a > .ck-content code {
   border: 1px solid #ced4da;
   border-radius: 0.375rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
   .ck-content .form-select {
@@ -2067,8 +2124,12 @@ a > .ck-content code {
   background-position: center;
   background-size: contain;
   border: 1px solid rgba(0, 0, 0, 0.25);
-  appearance: none;
-  print-color-adjust: exact;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-print-color-adjust: exact;
+     color-adjust: exact;
+          print-color-adjust: exact;
 }
 .ck-content .form-check-input[type=checkbox] {
   border-radius: 0.25em;
@@ -2158,7 +2219,9 @@ a > .ck-content code {
   height: 1.5rem;
   padding: 0;
   background-color: transparent;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 .ck-content .form-range:focus {
   outline: 0;
@@ -2179,11 +2242,14 @@ a > .ck-content code {
   background-color: #003CC5;
   border: 0;
   border-radius: 1rem;
+  -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
   .ck-content .form-range::-webkit-slider-thumb {
+    -webkit-transition: none;
     transition: none;
   }
 }
@@ -2205,11 +2271,14 @@ a > .ck-content code {
   background-color: #003CC5;
   border: 0;
   border-radius: 1rem;
+  -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  appearance: none;
+  -moz-appearance: none;
+       appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
   .ck-content .form-range::-moz-range-thumb {
+    -moz-transition: none;
     transition: none;
   }
 }
@@ -2268,9 +2337,23 @@ a > .ck-content code {
 .ck-content .form-floating > .form-control-plaintext {
   padding: 1rem 0.75rem;
 }
+.ck-content .form-floating > .form-control::-moz-placeholder, .ck-content .form-floating > .form-control-plaintext::-moz-placeholder {
+  color: transparent;
+}
+.ck-content .form-floating > .form-control:-ms-input-placeholder, .ck-content .form-floating > .form-control-plaintext:-ms-input-placeholder {
+  color: transparent;
+}
 .ck-content .form-floating > .form-control::placeholder,
 .ck-content .form-floating > .form-control-plaintext::placeholder {
   color: transparent;
+}
+.ck-content .form-floating > .form-control:not(:-moz-placeholder-shown), .ck-content .form-floating > .form-control-plaintext:not(:-moz-placeholder-shown) {
+  padding-top: 1.625rem;
+  padding-bottom: 0.625rem;
+}
+.ck-content .form-floating > .form-control:not(:-ms-input-placeholder), .ck-content .form-floating > .form-control-plaintext:not(:-ms-input-placeholder) {
+  padding-top: 1.625rem;
+  padding-bottom: 0.625rem;
 }
 .ck-content .form-floating > .form-control:focus, .ck-content .form-floating > .form-control:not(:placeholder-shown),
 .ck-content .form-floating > .form-control-plaintext:focus,
@@ -2286,6 +2369,14 @@ a > .ck-content code {
 .ck-content .form-floating > .form-select {
   padding-top: 1.625rem;
   padding-bottom: 0.625rem;
+}
+.ck-content .form-floating > .form-control:not(:-moz-placeholder-shown) ~ label {
+  opacity: 0.65;
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+.ck-content .form-floating > .form-control:not(:-ms-input-placeholder) ~ label {
+  opacity: 0.65;
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
 }
 .ck-content .form-floating > .form-control:focus ~ label,
 .ck-content .form-floating > .form-control:not(:placeholder-shown) ~ label,
@@ -2577,7 +2668,10 @@ a > .ck-content code {
   text-decoration: none;
   vertical-align: middle;
   cursor: pointer;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
   border-radius: var(--bs-btn-border-radius);
   background-color: var(--bs-btn-bg);
@@ -4105,69 +4199,69 @@ a > .ck-content code {
     border-bottom-right-radius: 0;
   }
   .ck-content .card-group > .card:not(:last-child) .card-img-top, .ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:last-child) .card-img-top, .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:last-child) .card-img-top, .ck-content .card-group > .form-type-managed-file:not(:last-child) .card-img-top, .ck-content .card-group > .form-item-upload:not(:last-child) .card-img-top, .ck-content .card-group > fieldset.form-item:not(:last-child) .card-img-top,
-  .ck-content .card-group > .card:not(:last-child) .card-header,
-  .ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:last-child) .card-header,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:last-child) .card-header,
-  .ck-content .card-group > .card:not(:last-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-library-select-form,
-  .ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:last-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-library-select-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .card:not(:last-child) .views-field-media-library-select-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:last-child) .views-field-media-library-select-form,
-  .ck-content .media-library-selection .view-media-library .media-library-views-form .media-library-item--grid .card-group > .media-library-item.media-library-item--grid:not(:last-child) .views-field-media-library-select-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:last-child) .views-field-media-library-select-form,
-  .ck-content .card-group > .card:not(:last-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-bulk-form,
-  .ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:last-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-bulk-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .card:not(:last-child) .views-field-media-bulk-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:last-child) .views-field-media-bulk-form,
-  .ck-content .media-library-selection .view-media-library .media-library-views-form .media-library-item--grid .card-group > .media-library-item.media-library-item--grid:not(:last-child) .views-field-media-bulk-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:last-child) .views-field-media-bulk-form,
-  .ck-content .card-group > .card:not(:last-child) .form-type-managed-file > label,
-  .ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:last-child) .form-type-managed-file > label,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:last-child) .form-type-managed-file > label,
-  .ck-content .card-group > .form-type-managed-file:not(:last-child) .card-header,
-  .ck-content .card-group > .form-type-managed-file:not(:last-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-library-select-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .form-type-managed-file:not(:last-child) .views-field-media-library-select-form,
-  .ck-content .card-group > .form-type-managed-file:not(:last-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-bulk-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .form-type-managed-file:not(:last-child) .views-field-media-bulk-form,
-  .ck-content .card-group > .form-type-managed-file:not(:last-child) .form-type-managed-file > label,
-  .ck-content .card-group > .card:not(:last-child) .form-item-upload label,
-  .ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:last-child) .form-item-upload label,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:last-child) .form-item-upload label,
-  .ck-content .card-group > .form-type-managed-file:not(:last-child) .form-item-upload label,
-  .ck-content .form-item-upload .card-group > .card:not(:last-child) label,
-  .ck-content .form-item-upload .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:last-child) label,
-  .ck-content .media-library-selection .form-item-upload .card-group > .media-library-item.media-library-item--grid:not(:last-child) label,
-  .ck-content .form-item-upload .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:last-child) label,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .form-item-upload .card-group > .views-field-rendered-entity:not(:last-child) label,
-  .ck-content .form-item-upload .card-group > .form-type-managed-file:not(:last-child) label,
-  .ck-content .card-group > .form-item-upload:not(:last-child) .card-header,
-  .ck-content .card-group > .form-item-upload:not(:last-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-library-select-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .form-item-upload:not(:last-child) .views-field-media-library-select-form,
-  .ck-content .card-group > .form-item-upload:not(:last-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-bulk-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .form-item-upload:not(:last-child) .views-field-media-bulk-form,
-  .ck-content .card-group > .form-item-upload:not(:last-child) label,
-  .ck-content .card-group > .card:not(:last-child) fieldset.form-item > legend,
-  .ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:last-child) fieldset.form-item > legend,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:last-child) fieldset.form-item > legend,
-  .ck-content .card-group > .form-type-managed-file:not(:last-child) fieldset.form-item > legend,
-  .ck-content .card-group > .form-item-upload:not(:last-child) fieldset.form-item > legend,
-  .ck-content .card-group > fieldset.form-item:not(:last-child) .card-header,
-  .ck-content .card-group > fieldset.form-item:not(:last-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-library-select-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > fieldset.form-item:not(:last-child) .views-field-media-library-select-form,
-  .ck-content .card-group > fieldset.form-item:not(:last-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-bulk-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > fieldset.form-item:not(:last-child) .views-field-media-bulk-form,
-  .ck-content .card-group > fieldset.form-item:not(:last-child) .form-type-managed-file > label,
-  .ck-content .card-group > fieldset.form-item:not(:last-child) .form-item-upload label,
-  .ck-content .form-item-upload .card-group > fieldset.form-item:not(:last-child) label,
-  .ck-content .card-group > fieldset.form-item:not(:last-child) fieldset.form-item > legend {
+.ck-content .card-group > .card:not(:last-child) .card-header,
+.ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:last-child) .card-header,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:last-child) .card-header,
+.ck-content .card-group > .card:not(:last-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-library-select-form,
+.ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:last-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-library-select-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .card:not(:last-child) .views-field-media-library-select-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:last-child) .views-field-media-library-select-form,
+.ck-content .media-library-selection .view-media-library .media-library-views-form .media-library-item--grid .card-group > .media-library-item.media-library-item--grid:not(:last-child) .views-field-media-library-select-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:last-child) .views-field-media-library-select-form,
+.ck-content .card-group > .card:not(:last-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-bulk-form,
+.ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:last-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-bulk-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .card:not(:last-child) .views-field-media-bulk-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:last-child) .views-field-media-bulk-form,
+.ck-content .media-library-selection .view-media-library .media-library-views-form .media-library-item--grid .card-group > .media-library-item.media-library-item--grid:not(:last-child) .views-field-media-bulk-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:last-child) .views-field-media-bulk-form,
+.ck-content .card-group > .card:not(:last-child) .form-type-managed-file > label,
+.ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:last-child) .form-type-managed-file > label,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:last-child) .form-type-managed-file > label,
+.ck-content .card-group > .form-type-managed-file:not(:last-child) .card-header,
+.ck-content .card-group > .form-type-managed-file:not(:last-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-library-select-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .form-type-managed-file:not(:last-child) .views-field-media-library-select-form,
+.ck-content .card-group > .form-type-managed-file:not(:last-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-bulk-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .form-type-managed-file:not(:last-child) .views-field-media-bulk-form,
+.ck-content .card-group > .form-type-managed-file:not(:last-child) .form-type-managed-file > label,
+.ck-content .card-group > .card:not(:last-child) .form-item-upload label,
+.ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:last-child) .form-item-upload label,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:last-child) .form-item-upload label,
+.ck-content .card-group > .form-type-managed-file:not(:last-child) .form-item-upload label,
+.ck-content .form-item-upload .card-group > .card:not(:last-child) label,
+.ck-content .form-item-upload .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:last-child) label,
+.ck-content .media-library-selection .form-item-upload .card-group > .media-library-item.media-library-item--grid:not(:last-child) label,
+.ck-content .form-item-upload .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:last-child) label,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .form-item-upload .card-group > .views-field-rendered-entity:not(:last-child) label,
+.ck-content .form-item-upload .card-group > .form-type-managed-file:not(:last-child) label,
+.ck-content .card-group > .form-item-upload:not(:last-child) .card-header,
+.ck-content .card-group > .form-item-upload:not(:last-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-library-select-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .form-item-upload:not(:last-child) .views-field-media-library-select-form,
+.ck-content .card-group > .form-item-upload:not(:last-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-bulk-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .form-item-upload:not(:last-child) .views-field-media-bulk-form,
+.ck-content .card-group > .form-item-upload:not(:last-child) label,
+.ck-content .card-group > .card:not(:last-child) fieldset.form-item > legend,
+.ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:last-child) fieldset.form-item > legend,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:last-child) fieldset.form-item > legend,
+.ck-content .card-group > .form-type-managed-file:not(:last-child) fieldset.form-item > legend,
+.ck-content .card-group > .form-item-upload:not(:last-child) fieldset.form-item > legend,
+.ck-content .card-group > fieldset.form-item:not(:last-child) .card-header,
+.ck-content .card-group > fieldset.form-item:not(:last-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-library-select-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > fieldset.form-item:not(:last-child) .views-field-media-library-select-form,
+.ck-content .card-group > fieldset.form-item:not(:last-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-bulk-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > fieldset.form-item:not(:last-child) .views-field-media-bulk-form,
+.ck-content .card-group > fieldset.form-item:not(:last-child) .form-type-managed-file > label,
+.ck-content .card-group > fieldset.form-item:not(:last-child) .form-item-upload label,
+.ck-content .form-item-upload .card-group > fieldset.form-item:not(:last-child) label,
+.ck-content .card-group > fieldset.form-item:not(:last-child) fieldset.form-item > legend {
     border-top-right-radius: 0;
   }
   .ck-content .card-group > .card:not(:last-child) .card-img-bottom, .ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:last-child) .card-img-bottom, .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:last-child) .card-img-bottom, .ck-content .card-group > .form-type-managed-file:not(:last-child) .card-img-bottom, .ck-content .card-group > .form-item-upload:not(:last-child) .card-img-bottom, .ck-content .card-group > fieldset.form-item:not(:last-child) .card-img-bottom,
-  .ck-content .card-group > .card:not(:last-child) .card-footer,
-  .ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:last-child) .card-footer,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:last-child) .card-footer,
-  .ck-content .card-group > .form-type-managed-file:not(:last-child) .card-footer,
-  .ck-content .card-group > .form-item-upload:not(:last-child) .card-footer,
-  .ck-content .card-group > fieldset.form-item:not(:last-child) .card-footer {
+.ck-content .card-group > .card:not(:last-child) .card-footer,
+.ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:last-child) .card-footer,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:last-child) .card-footer,
+.ck-content .card-group > .form-type-managed-file:not(:last-child) .card-footer,
+.ck-content .card-group > .form-item-upload:not(:last-child) .card-footer,
+.ck-content .card-group > fieldset.form-item:not(:last-child) .card-footer {
     border-bottom-right-radius: 0;
   }
   .ck-content .card-group > .card:not(:first-child), .ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child), .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:first-child), .ck-content .card-group > .form-type-managed-file:not(:first-child), .ck-content .card-group > .form-item-upload:not(:first-child), .ck-content .card-group > fieldset.form-item:not(:first-child) {
@@ -4175,69 +4269,69 @@ a > .ck-content code {
     border-bottom-left-radius: 0;
   }
   .ck-content .card-group > .card:not(:first-child) .card-img-top, .ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child) .card-img-top, .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:first-child) .card-img-top, .ck-content .card-group > .form-type-managed-file:not(:first-child) .card-img-top, .ck-content .card-group > .form-item-upload:not(:first-child) .card-img-top, .ck-content .card-group > fieldset.form-item:not(:first-child) .card-img-top,
-  .ck-content .card-group > .card:not(:first-child) .card-header,
-  .ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child) .card-header,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:first-child) .card-header,
-  .ck-content .card-group > .card:not(:first-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-library-select-form,
-  .ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-library-select-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .card:not(:first-child) .views-field-media-library-select-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child) .views-field-media-library-select-form,
-  .ck-content .media-library-selection .view-media-library .media-library-views-form .media-library-item--grid .card-group > .media-library-item.media-library-item--grid:not(:first-child) .views-field-media-library-select-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:first-child) .views-field-media-library-select-form,
-  .ck-content .card-group > .card:not(:first-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-bulk-form,
-  .ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-bulk-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .card:not(:first-child) .views-field-media-bulk-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child) .views-field-media-bulk-form,
-  .ck-content .media-library-selection .view-media-library .media-library-views-form .media-library-item--grid .card-group > .media-library-item.media-library-item--grid:not(:first-child) .views-field-media-bulk-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:first-child) .views-field-media-bulk-form,
-  .ck-content .card-group > .card:not(:first-child) .form-type-managed-file > label,
-  .ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child) .form-type-managed-file > label,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:first-child) .form-type-managed-file > label,
-  .ck-content .card-group > .form-type-managed-file:not(:first-child) .card-header,
-  .ck-content .card-group > .form-type-managed-file:not(:first-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-library-select-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .form-type-managed-file:not(:first-child) .views-field-media-library-select-form,
-  .ck-content .card-group > .form-type-managed-file:not(:first-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-bulk-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .form-type-managed-file:not(:first-child) .views-field-media-bulk-form,
-  .ck-content .card-group > .form-type-managed-file:not(:first-child) .form-type-managed-file > label,
-  .ck-content .card-group > .card:not(:first-child) .form-item-upload label,
-  .ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child) .form-item-upload label,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:first-child) .form-item-upload label,
-  .ck-content .card-group > .form-type-managed-file:not(:first-child) .form-item-upload label,
-  .ck-content .form-item-upload .card-group > .card:not(:first-child) label,
-  .ck-content .form-item-upload .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child) label,
-  .ck-content .media-library-selection .form-item-upload .card-group > .media-library-item.media-library-item--grid:not(:first-child) label,
-  .ck-content .form-item-upload .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:first-child) label,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .form-item-upload .card-group > .views-field-rendered-entity:not(:first-child) label,
-  .ck-content .form-item-upload .card-group > .form-type-managed-file:not(:first-child) label,
-  .ck-content .card-group > .form-item-upload:not(:first-child) .card-header,
-  .ck-content .card-group > .form-item-upload:not(:first-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-library-select-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .form-item-upload:not(:first-child) .views-field-media-library-select-form,
-  .ck-content .card-group > .form-item-upload:not(:first-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-bulk-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .form-item-upload:not(:first-child) .views-field-media-bulk-form,
-  .ck-content .card-group > .form-item-upload:not(:first-child) label,
-  .ck-content .card-group > .card:not(:first-child) fieldset.form-item > legend,
-  .ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child) fieldset.form-item > legend,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:first-child) fieldset.form-item > legend,
-  .ck-content .card-group > .form-type-managed-file:not(:first-child) fieldset.form-item > legend,
-  .ck-content .card-group > .form-item-upload:not(:first-child) fieldset.form-item > legend,
-  .ck-content .card-group > fieldset.form-item:not(:first-child) .card-header,
-  .ck-content .card-group > fieldset.form-item:not(:first-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-library-select-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > fieldset.form-item:not(:first-child) .views-field-media-library-select-form,
-  .ck-content .card-group > fieldset.form-item:not(:first-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-bulk-form,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > fieldset.form-item:not(:first-child) .views-field-media-bulk-form,
-  .ck-content .card-group > fieldset.form-item:not(:first-child) .form-type-managed-file > label,
-  .ck-content .card-group > fieldset.form-item:not(:first-child) .form-item-upload label,
-  .ck-content .form-item-upload .card-group > fieldset.form-item:not(:first-child) label,
-  .ck-content .card-group > fieldset.form-item:not(:first-child) fieldset.form-item > legend {
+.ck-content .card-group > .card:not(:first-child) .card-header,
+.ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child) .card-header,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:first-child) .card-header,
+.ck-content .card-group > .card:not(:first-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-library-select-form,
+.ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-library-select-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .card:not(:first-child) .views-field-media-library-select-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child) .views-field-media-library-select-form,
+.ck-content .media-library-selection .view-media-library .media-library-views-form .media-library-item--grid .card-group > .media-library-item.media-library-item--grid:not(:first-child) .views-field-media-library-select-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:first-child) .views-field-media-library-select-form,
+.ck-content .card-group > .card:not(:first-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-bulk-form,
+.ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-bulk-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .card:not(:first-child) .views-field-media-bulk-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child) .views-field-media-bulk-form,
+.ck-content .media-library-selection .view-media-library .media-library-views-form .media-library-item--grid .card-group > .media-library-item.media-library-item--grid:not(:first-child) .views-field-media-bulk-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:first-child) .views-field-media-bulk-form,
+.ck-content .card-group > .card:not(:first-child) .form-type-managed-file > label,
+.ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child) .form-type-managed-file > label,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:first-child) .form-type-managed-file > label,
+.ck-content .card-group > .form-type-managed-file:not(:first-child) .card-header,
+.ck-content .card-group > .form-type-managed-file:not(:first-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-library-select-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .form-type-managed-file:not(:first-child) .views-field-media-library-select-form,
+.ck-content .card-group > .form-type-managed-file:not(:first-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-bulk-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .form-type-managed-file:not(:first-child) .views-field-media-bulk-form,
+.ck-content .card-group > .form-type-managed-file:not(:first-child) .form-type-managed-file > label,
+.ck-content .card-group > .card:not(:first-child) .form-item-upload label,
+.ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child) .form-item-upload label,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:first-child) .form-item-upload label,
+.ck-content .card-group > .form-type-managed-file:not(:first-child) .form-item-upload label,
+.ck-content .form-item-upload .card-group > .card:not(:first-child) label,
+.ck-content .form-item-upload .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child) label,
+.ck-content .media-library-selection .form-item-upload .card-group > .media-library-item.media-library-item--grid:not(:first-child) label,
+.ck-content .form-item-upload .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:first-child) label,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .form-item-upload .card-group > .views-field-rendered-entity:not(:first-child) label,
+.ck-content .form-item-upload .card-group > .form-type-managed-file:not(:first-child) label,
+.ck-content .card-group > .form-item-upload:not(:first-child) .card-header,
+.ck-content .card-group > .form-item-upload:not(:first-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-library-select-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .form-item-upload:not(:first-child) .views-field-media-library-select-form,
+.ck-content .card-group > .form-item-upload:not(:first-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-bulk-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .form-item-upload:not(:first-child) .views-field-media-bulk-form,
+.ck-content .card-group > .form-item-upload:not(:first-child) label,
+.ck-content .card-group > .card:not(:first-child) fieldset.form-item > legend,
+.ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child) fieldset.form-item > legend,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:first-child) fieldset.form-item > legend,
+.ck-content .card-group > .form-type-managed-file:not(:first-child) fieldset.form-item > legend,
+.ck-content .card-group > .form-item-upload:not(:first-child) fieldset.form-item > legend,
+.ck-content .card-group > fieldset.form-item:not(:first-child) .card-header,
+.ck-content .card-group > fieldset.form-item:not(:first-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-library-select-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > fieldset.form-item:not(:first-child) .views-field-media-library-select-form,
+.ck-content .card-group > fieldset.form-item:not(:first-child) .view-media-library .media-library-views-form .media-library-item--grid .views-field-media-bulk-form,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > fieldset.form-item:not(:first-child) .views-field-media-bulk-form,
+.ck-content .card-group > fieldset.form-item:not(:first-child) .form-type-managed-file > label,
+.ck-content .card-group > fieldset.form-item:not(:first-child) .form-item-upload label,
+.ck-content .form-item-upload .card-group > fieldset.form-item:not(:first-child) label,
+.ck-content .card-group > fieldset.form-item:not(:first-child) fieldset.form-item > legend {
     border-top-left-radius: 0;
   }
   .ck-content .card-group > .card:not(:first-child) .card-img-bottom, .ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child) .card-img-bottom, .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:first-child) .card-img-bottom, .ck-content .card-group > .form-type-managed-file:not(:first-child) .card-img-bottom, .ck-content .card-group > .form-item-upload:not(:first-child) .card-img-bottom, .ck-content .card-group > fieldset.form-item:not(:first-child) .card-img-bottom,
-  .ck-content .card-group > .card:not(:first-child) .card-footer,
-  .ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child) .card-footer,
-  .ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:first-child) .card-footer,
-  .ck-content .card-group > .form-type-managed-file:not(:first-child) .card-footer,
-  .ck-content .card-group > .form-item-upload:not(:first-child) .card-footer,
-  .ck-content .card-group > fieldset.form-item:not(:first-child) .card-footer {
+.ck-content .card-group > .card:not(:first-child) .card-footer,
+.ck-content .media-library-selection .card-group > .media-library-item.media-library-item--grid:not(:first-child) .card-footer,
+.ck-content .view-media-library .media-library-views-form .media-library-item--grid .card-group > .views-field-rendered-entity:not(:first-child) .card-footer,
+.ck-content .card-group > .form-type-managed-file:not(:first-child) .card-footer,
+.ck-content .card-group > .form-item-upload:not(:first-child) .card-footer,
+.ck-content .card-group > fieldset.form-item:not(:first-child) .card-footer {
     border-bottom-left-radius: 0;
   }
 }
@@ -4611,6 +4705,11 @@ a > .ck-content code {
 .ck-content .alert-dark .alert-link {
   color: #101214;
 }
+@-webkit-keyframes progress-bar-stripes {
+  0% {
+    background-position-x: 1rem;
+  }
+}
 @keyframes progress-bar-stripes {
   0% {
     background-position-x: 1rem;
@@ -4653,11 +4752,13 @@ a > .ck-content code {
   background-size: var(--bs-progress-height) var(--bs-progress-height);
 }
 .ck-content .progress-bar-animated {
-  animation: 1s linear infinite progress-bar-stripes;
+  -webkit-animation: 1s linear infinite progress-bar-stripes;
+          animation: 1s linear infinite progress-bar-stripes;
 }
 @media (prefers-reduced-motion: reduce) {
   .ck-content .progress-bar-animated {
-    animation: none;
+    -webkit-animation: none;
+            animation: none;
   }
 }
 .ck-content .list-group {
@@ -5020,7 +5121,10 @@ a > .ck-content code {
 }
 .ck-content .btn-close:disabled, .ck-content .ui-dialog .ui-dialog-titlebar-close:disabled, .ck-content .btn-close.disabled, .ck-content .ui-dialog .disabled.ui-dialog-titlebar-close {
   pointer-events: none;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   opacity: 0.25;
 }
 .ck-content .btn-close-white {
@@ -5063,6 +5167,8 @@ a > .ck-content code {
   --bs-toast-zindex: 1090;
   position: absolute;
   z-index: var(--bs-toast-zindex);
+  width: -webkit-max-content;
+  width: -moz-max-content;
   width: max-content;
   max-width: 100%;
   pointer-events: none;
@@ -5243,7 +5349,7 @@ a > .ck-content code {
 }
 @media (min-width: 992px) {
   .ck-content .modal-lg,
-  .ck-content .modal-xl {
+.ck-content .modal-xl {
     --bs-modal-width: 800px;
   }
 }
@@ -5283,7 +5389,7 @@ a > .ck-content code {
     border-radius: 0;
   }
   .ck-content .modal-fullscreen-sm-down .modal-header,
-  .ck-content .modal-fullscreen-sm-down .modal-footer {
+.ck-content .modal-fullscreen-sm-down .modal-footer {
     border-radius: 0;
   }
   .ck-content .modal-fullscreen-sm-down .modal-body {
@@ -5303,7 +5409,7 @@ a > .ck-content code {
     border-radius: 0;
   }
   .ck-content .modal-fullscreen-md-down .modal-header,
-  .ck-content .modal-fullscreen-md-down .modal-footer {
+.ck-content .modal-fullscreen-md-down .modal-footer {
     border-radius: 0;
   }
   .ck-content .modal-fullscreen-md-down .modal-body {
@@ -5323,7 +5429,7 @@ a > .ck-content code {
     border-radius: 0;
   }
   .ck-content .modal-fullscreen-lg-down .modal-header,
-  .ck-content .modal-fullscreen-lg-down .modal-footer {
+.ck-content .modal-fullscreen-lg-down .modal-footer {
     border-radius: 0;
   }
   .ck-content .modal-fullscreen-lg-down .modal-body {
@@ -5343,7 +5449,7 @@ a > .ck-content code {
     border-radius: 0;
   }
   .ck-content .modal-fullscreen-xl-down .modal-header,
-  .ck-content .modal-fullscreen-xl-down .modal-footer {
+.ck-content .modal-fullscreen-xl-down .modal-footer {
     border-radius: 0;
   }
   .ck-content .modal-fullscreen-xl-down .modal-body {
@@ -5363,7 +5469,7 @@ a > .ck-content code {
     border-radius: 0;
   }
   .ck-content .modal-fullscreen-xxl-down .modal-header,
-  .ck-content .modal-fullscreen-xxl-down .modal-footer {
+.ck-content .modal-fullscreen-xxl-down .modal-footer {
     border-radius: 0;
   }
   .ck-content .modal-fullscreen-xxl-down .modal-body {
@@ -5630,7 +5736,8 @@ a > .ck-content code {
   float: left;
   width: 100%;
   margin-right: -100%;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -5674,9 +5781,9 @@ a > .ck-content code {
 }
 @media (prefers-reduced-motion: reduce) {
   .ck-content .carousel-fade .active.carousel-item-start, .ck-content .carousel-fade .media-library-view--widget .view-header a.carousel-item-start.is-active, .ck-content .media-library-view--widget .view-header .carousel-fade a.carousel-item-start.is-active,
-  .ck-content .carousel-fade .active.carousel-item-end,
-  .ck-content .carousel-fade .media-library-view--widget .view-header a.carousel-item-end.is-active,
-  .ck-content .media-library-view--widget .view-header .carousel-fade a.carousel-item-end.is-active {
+.ck-content .carousel-fade .active.carousel-item-end,
+.ck-content .carousel-fade .media-library-view--widget .view-header a.carousel-item-end.is-active,
+.ck-content .media-library-view--widget .view-header .carousel-fade a.carousel-item-end.is-active {
     transition: none;
   }
 }
@@ -5700,7 +5807,7 @@ a > .ck-content code {
 }
 @media (prefers-reduced-motion: reduce) {
   .ck-content .carousel-control-prev,
-  .ck-content .carousel-control-next {
+.ck-content .carousel-control-next {
     transition: none;
   }
 }
@@ -5800,7 +5907,13 @@ a > .ck-content code {
   height: var(--bs-spinner-height);
   vertical-align: var(--bs-spinner-vertical-align);
   border-radius: 50%;
-  animation: var(--bs-spinner-animation-speed) linear infinite var(--bs-spinner-animation-name);
+  -webkit-animation: var(--bs-spinner-animation-speed) linear infinite var(--bs-spinner-animation-name);
+          animation: var(--bs-spinner-animation-speed) linear infinite var(--bs-spinner-animation-name);
+}
+@-webkit-keyframes spinner-border {
+  to {
+    transform: rotate(360deg) /* rtl:ignore */;
+  }
 }
 @keyframes spinner-border {
   to {
@@ -5821,6 +5934,15 @@ a > .ck-content code {
   --bs-spinner-width: 1rem;
   --bs-spinner-height: 1rem;
   --bs-spinner-border-width: 0.2em;
+}
+@-webkit-keyframes spinner-grow {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: none;
+  }
 }
 @keyframes spinner-grow {
   0% {
@@ -5846,7 +5968,7 @@ a > .ck-content code {
 }
 @media (prefers-reduced-motion: reduce) {
   .ck-content .spinner-border,
-  .ck-content .spinner-grow {
+.ck-content .spinner-grow {
     --bs-spinner-animation-speed: 1.5s;
   }
 }
@@ -6411,7 +6533,13 @@ a > .ck-content code {
   min-height: 1.2em;
 }
 .ck-content .placeholder-glow .placeholder {
-  animation: placeholder-glow 2s ease-in-out infinite;
+  -webkit-animation: placeholder-glow 2s ease-in-out infinite;
+          animation: placeholder-glow 2s ease-in-out infinite;
+}
+@-webkit-keyframes placeholder-glow {
+  50% {
+    opacity: 0.2;
+  }
 }
 @keyframes placeholder-glow {
   50% {
@@ -6419,13 +6547,23 @@ a > .ck-content code {
   }
 }
 .ck-content .placeholder-wave {
-  mask-image: linear-gradient(130deg, #000 55%, rgba(0, 0, 0, 0.8) 75%, #000 95%);
-  mask-size: 200% 100%;
-  animation: placeholder-wave 2s linear infinite;
+  -webkit-mask-image: linear-gradient(130deg, #000 55%, rgba(0, 0, 0, 0.8) 75%, #000 95%);
+          mask-image: linear-gradient(130deg, #000 55%, rgba(0, 0, 0, 0.8) 75%, #000 95%);
+  -webkit-mask-size: 200% 100%;
+          mask-size: 200% 100%;
+  -webkit-animation: placeholder-wave 2s linear infinite;
+          animation: placeholder-wave 2s linear infinite;
+}
+@-webkit-keyframes placeholder-wave {
+  100% {
+    -webkit-mask-position: -200% 0%;
+            mask-position: -200% 0%;
+  }
 }
 @keyframes placeholder-wave {
   100% {
-    mask-position: -200% 0%;
+    -webkit-mask-position: -200% 0%;
+            mask-position: -200% 0%;
   }
 }
 .ck-content .clearfix::after {
@@ -6556,22 +6694,26 @@ a > .ck-content code {
   z-index: 1030;
 }
 .ck-content .sticky-top {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1020;
 }
 .ck-content .sticky-bottom {
+  position: -webkit-sticky;
   position: sticky;
   bottom: 0;
   z-index: 1020;
 }
 @media (min-width: 576px) {
   .ck-content .sticky-sm-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
   }
   .ck-content .sticky-sm-bottom {
+    position: -webkit-sticky;
     position: sticky;
     bottom: 0;
     z-index: 1020;
@@ -6579,11 +6721,13 @@ a > .ck-content code {
 }
 @media (min-width: 768px) {
   .ck-content .sticky-md-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
   }
   .ck-content .sticky-md-bottom {
+    position: -webkit-sticky;
     position: sticky;
     bottom: 0;
     z-index: 1020;
@@ -6591,11 +6735,13 @@ a > .ck-content code {
 }
 @media (min-width: 992px) {
   .ck-content .sticky-lg-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
   }
   .ck-content .sticky-lg-bottom {
+    position: -webkit-sticky;
     position: sticky;
     bottom: 0;
     z-index: 1020;
@@ -6603,11 +6749,13 @@ a > .ck-content code {
 }
 @media (min-width: 1200px) {
   .ck-content .sticky-xl-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
   }
   .ck-content .sticky-xl-bottom {
+    position: -webkit-sticky;
     position: sticky;
     bottom: 0;
     z-index: 1020;
@@ -6615,11 +6763,13 @@ a > .ck-content code {
 }
 @media (min-width: 1400px) {
   .ck-content .sticky-xxl-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
   }
   .ck-content .sticky-xxl-bottom {
+    position: -webkit-sticky;
     position: sticky;
     bottom: 0;
     z-index: 1020;
@@ -6780,6 +6930,7 @@ a > .ck-content code {
   position: fixed !important;
 }
 .ck-content .position-sticky {
+  position: -webkit-sticky !important;
   position: sticky !important;
 }
 .ck-content .top-0 {
@@ -7650,13 +7801,21 @@ a > .ck-content code {
   background-image: var(--bs-gradient) !important;
 }
 .ck-content .user-select-all {
-  user-select: all !important;
+  -webkit-user-select: all !important;
+     -moz-user-select: all !important;
+          user-select: all !important;
 }
 .ck-content .user-select-auto {
-  user-select: auto !important;
+  -webkit-user-select: auto !important;
+     -moz-user-select: auto !important;
+      -ms-user-select: auto !important;
+          user-select: auto !important;
 }
 .ck-content .user-select-none {
-  user-select: none !important;
+  -webkit-user-select: none !important;
+     -moz-user-select: none !important;
+      -ms-user-select: none !important;
+          user-select: none !important;
 }
 .ck-content .pe-none {
   pointer-events: none !important;
@@ -10933,7 +11092,7 @@ a > .ck-content code {
 }
 @media (min-width: 768px) {
   .ck-content .media-library-view--widget .view-filters .form--inline > div,
-  .ck-content .view-media-library .view-filters .form--inline > div {
+.ck-content .view-media-library .view-filters .form--inline > div {
     flex: 0 0 auto;
     width: auto;
     margin-bottom: 1rem;
@@ -10991,5 +11150,9 @@ a > .ck-content code {
 .ck-content code {
   overflow-y: auto;
 }
-
-/*# sourceMappingURL=ck5style.css.map */
+.ck-content h1, .ck-content .h1, .ck-content h2, .ck-content .h2, .ck-content h3, .ck-content .h3, .ck-content h4, .ck-content .h4, .ck-content h5, .ck-content .h5, .ck-content h6, .ck-content .h6 {
+  font-family: "Cabin", sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=ck5style.css.map */
