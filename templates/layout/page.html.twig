@@ -57,7 +57,7 @@ set footer_classes = ' ' ~
 %}
 
 <header>
-<div id="zone-branding">
+<div id="zone-branding bg-primary">
   {{ page.header }}
 </div>
   {% if page.nav_branding or page.nav_main or page.nav_additional %}
@@ -142,7 +142,7 @@ set footer_classes = ' ' ~
 {% if page.footer %}
 <footer class="mt-auto {{ footer_classes }}">
   <div class="{{ b5_top_container }}">
-    <div id="zone-footer-second">
+    <div id="zone-footer-first">
       {{ page.footer_first }}
     </div>
     <div id="zone-footer-second">
