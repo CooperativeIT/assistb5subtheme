@@ -11150,6 +11150,12 @@ a > .ck-content code {
 .ck-content code {
   overflow-y: auto;
 }
+.ck-content body {
+  font-size: 16px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
 .ck-content h1, .ck-content .h1, .ck-content h2, .ck-content .h2, .ck-content h3, .ck-content .h3, .ck-content h4, .ck-content .h4, .ck-content h5, .ck-content .h5, .ck-content h6, .ck-content .h6 {
   font-family: "Cabin", sans-serif;
   font-weight: 600;
