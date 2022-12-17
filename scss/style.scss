@@ -3,12 +3,22 @@
 
 // Bootstrap overriden variables.
 // @see https://getbootstrap.com/docs/5.2/customize/sass/#variable-defaults.
+$primary: #009ADE;
+$dark: #333E48;
+
 @import 'variables_bootstrap';
 
 // Include bootstrap.
 @import '../../../../themes/contrib/bootstrap5/scss/style';
 
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Cabin', sans-serif;
