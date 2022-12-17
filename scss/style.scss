@@ -3,6 +3,9 @@
 
 // Bootstrap overriden variables.
 // @see https://getbootstrap.com/docs/5.2/customize/sass/#variable-defaults.
+$primary: #009ADE;
+$dark: #333E48;
+
 @import 'variables_bootstrap';
 
 // Include bootstrap.
