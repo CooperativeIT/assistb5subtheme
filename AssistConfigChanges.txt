@@ -1,0 +1,14 @@
+Assist Config
+
+Config changes:
+1) In the theme,
+http://dev.assistsheffield.org.uk:8009/admin/appearance/settings/assistb5subtheme
+set Body width to Fluid
+2) Edit Leon's story View
+http://dev.assistsheffield.org.uk:8009/admin/structure/views/view/random_homepage_story/edit/block?destination=/node/179
+under Advanced add a css rule 'random-story'
+3) Under Donations viewhttp://dev.assistsheffield.org.uk:8009/admin/structure/views/view/tabs/edit/block_1?destination=/node/179
+Advanced - Add css rule 'container'
+4)Are you an asylum seeker in need of ASSIST’s support? block
+Edit the title to add the ?
+Edit the customblock to allow full html to pick up the css class for the button

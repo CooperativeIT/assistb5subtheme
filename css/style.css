@@ -12137,7 +12137,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   color: #FFF;
 }
 
-#zone-postscript-fourth .content a {
+#zone-postscript-fourth p a {
   color: #FFF;
   text-decoration: none;
   font-size: 1.666666667rem;
@@ -12290,11 +12290,12 @@ ul {
   display: none;
 }
 
+#block-bepartofthefamily h2, #block-bepartofthefamily .h2 {
+  font-size: 2.916666667rem;
+  color: #FFF;
+}
+
 /*
-  .part-of-the-family h2.block-title {
-    font-size: 2.916666667rem;
-    color: #FFF;
-  }
   .social-share ul li {
     display: inline-block;
   }

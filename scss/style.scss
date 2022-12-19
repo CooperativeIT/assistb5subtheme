@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
   #zone-postscript-fourth .content label {
     color: #FFF;
   }
-  #zone-postscript-fourth .content a {
+  #zone-postscript-fourth p a {
     color: #FFF;
     text-decoration: none;
     font-size: 1.666666667rem;
@@ -308,11 +308,12 @@ html {
   .item-list ul li::before {
     display: none;
   }
-  /*
-  .part-of-the-family h2.block-title {
+  
+  #block-bepartofthefamily h2 {
     font-size: 2.916666667rem;
     color: #FFF;
   }
+  /*
   .social-share ul li {
     display: inline-block;
   }
