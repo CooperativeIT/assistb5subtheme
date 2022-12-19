@@ -35,10 +35,6 @@
   @import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
   /* Zone Backgrounds */
   /*
-    .part-of-the-family h2.block-title {
-      font-size: 2.916666667rem;
-      color: #FFF;
-    }
     .social-share ul li {
       display: inline-block;
     }
@@ -12121,7 +12117,7 @@ a > .ck-content code {
 .ck-content #zone-postscript-fourth .content label {
   color: #FFF;
 }
-.ck-content #zone-postscript-fourth .content a {
+.ck-content #zone-postscript-fourth p a {
   color: #FFF;
   text-decoration: none;
   font-size: 1.666666667rem;
@@ -12246,6 +12242,10 @@ a > .ck-content code {
 }
 .ck-content .item-list ul li::before {
   display: none;
+}
+.ck-content #block-bepartofthefamily h2, .ck-content #block-bepartofthefamily .h2 {
+  font-size: 2.916666667rem;
+  color: #FFF;
 }
 .ck-content .sf-accordion-toggle {
   text-align: center;
