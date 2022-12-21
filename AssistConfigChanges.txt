@@ -14,3 +14,25 @@ Edit the title to add the ?
 Edit the customblock to allow full html to pick up the css class for the button
 5)Add 'random-story' class to hosts box on front page:
 http://dev.assistsheffield.org.uk:8009/admin/structure/views/view/random_host_story/edit/block?destination=/node/179
+6) Edit the story to add 'img-fluid' class to image in story. Do it in the summary and the main body.
+Fixes the issue in the news block on the front page
+http://dev.assistsheffield.org.uk:8009/content/annual-review-anti-racist-statement-august-2022
+7) edited the text in the top block to:
+
+<div class="container">
+<div class="row">
+<div class="col-sm-6 logo"><a href="/"><img alt="Assist Sheffield Logo" data-entity-type="" data-entity-uuid="" src="/themes/custom/assistb5subtheme/logo.svg" /> </a></div>
+
+<div class="col-sm-6 header-contact">
+<p><a href="tel:+300 2010072">0300 2010072</a><br />
+<a href="mailto:admin@assistsheffield.org.uk">admin@assistsheffield.org.uk</a></p>
+
+<ul>
+	<li><a class="facebook social" href="https://www.facebook.com/assistsheffield/" target="_blank">Facebook</a></li>
+	<li><a class="twitter social" href="https://twitter.com/assistsheffield?lang=en" target="_blank">Twitter</a></li>
+</ul>
+
+<p><a class="header-donate" href="/civicrm/contribute/transact?reset&amp;id=8">Donate</a></p>
+</div>
+</div>
+</div>
