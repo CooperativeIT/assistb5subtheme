@@ -83,7 +83,7 @@ set footer_classes = ' ' ~
   
 </header>
 
-<main role="main" id="zone-content">
+<main role="main" id="zone-content" {% if is_front %} class="front" {% endif %}>
   <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
   {%
