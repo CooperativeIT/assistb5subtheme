@@ -23,7 +23,7 @@ http://dev.assistsheffield.org.uk:8009/content/annual-review-anti-racist-stateme
 <div class="row">
 <div class="col-sm-6 logo"><a href="/"><img alt="Assist Sheffield Logo" data-entity-type="" data-entity-uuid="" src="/themes/custom/assistb5subtheme/logo.svg" /> </a></div>
 
-<div class="col-sm-6 header-contact">
+<div class="col-sm-6 header-contact text-end">
 <p><a href="tel:+300 2010072">0300 2010072</a><br />
 <a href="mailto:admin@assistsheffield.org.uk">admin@assistsheffield.org.uk</a></p>
 
@@ -32,7 +32,11 @@ http://dev.assistsheffield.org.uk:8009/content/annual-review-anti-racist-stateme
 	<li><a class="twitter social" href="https://twitter.com/assistsheffield?lang=en" target="_blank">Twitter</a></li>
 </ul>
 
-<p><a class="header-donate" href="/civicrm/contribute/transact?reset&amp;id=8">Donate</a></p>
+<p><a class="header-donate text-center" href="/civicrm/contribute/transact?reset&amp;id=8">Donate</a></p>
 </div>
 </div>
 </div>
+
+8) Set the footer background to 'dark in the theme settings page
+
+9) Disabled the 'Footer' block in the blocks Admin page
