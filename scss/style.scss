@@ -5,6 +5,8 @@
 // @see https://getbootstrap.com/docs/5.2/customize/sass/#variable-defaults.
 $primary: #009ADE;
 $dark: #333E48;
+$nav-tabs-link-active-bg: #FF671D !default;
+$nav-tabs-link-active-border-color: #FF671D !default;
 
 @import 'variables_bootstrap';
 
@@ -46,8 +48,11 @@ h1, h2, h3, h4, h5, h6 {
   #zone-menu {
     position: relative;
     padding-top: 15px;
+    width: 960px;
+    margin: auto;
+    text-align: center;
   }
-  #zone-menu::before {
+  nav.navbar::before {
     content: "";
     height: 15px;
     background: url(/themes/custom/assistb5subtheme/images/slices.png) top center no-repeat;
@@ -57,8 +62,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0px;
     background-position: 0px -25px;
   }
-  
-
   
   .responsive-menus-load-processed #zone-menu {
     display: block;
@@ -87,8 +90,13 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 960px;
   }
 
+  #block-assistb5subtheme-content {
+    margin-bottom:2em;
+  }
+
   .front #block-assistb5subtheme-content {
     text-align: center;
+    margin-bottom: 0;
   }
 
 
@@ -194,6 +202,11 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     font-size: 1.666666667rem;
   }
+
+  #zone-footer-first, #zone-footer-second {
+  margin: auto;
+  max-width: 960px;
+}
 
 //Donation Tabs
 
@@ -340,6 +353,8 @@ html {
     max-width: 960px;
     margin: auto;
   }
+
+
   .social-share ul li {
     display: inline-block;
   }
@@ -405,16 +420,18 @@ html {
     font-size: 0.833333333rem;
     margin-top: 20px;
   }
-  .zone-footer-wrapper {
+
+  */
+  footer {
     position: relative;
     background: #333E48;
     color: #FFF;
   }
   
-  .zone-footer-wrapper::before {
+  footer::before {
     content: "";
     height: 50px;
-    background: url(../images/gb_slice.png) bottom center no-repeat;
+    background: url(/themes/custom/assistb5subtheme/images/gb_slice.png) bottom center no-repeat;
     position: absolute;
     top: 0px;
     width: 100%;
@@ -424,9 +441,26 @@ html {
   .zone-footer {
     padding-top: 40px;
   }
-*/
+
 
   /* Main Menu */
+
+  #zone-menu ul.navbar-nav {
+    margin: auto;
+    width: 70%;
+  }
+  #zone-footer-second ul.navbar-nav {
+    flex-direction: row;
+  }
+  #zone-footer-second .dropdown-menu {
+    display: block;
+    border: none;
+    background-color: inherit;
+  }
+  #zone-footer-second span.dropdown-toggle {
+    display:none;
+  }
+
   /*
   .main-menu-superfish {
     font-size: 0.83rem;
@@ -587,6 +621,11 @@ html {
     font-size: 1.5rem;
     text-align: center !important;
   }
+  div.views-field-view-node-1 span.field-content {
+    background: none;
+    border: none;
+  }
+
   a.o-action,
   .o-action a,
   .views-field-view-node a,
@@ -678,6 +717,11 @@ html {
     padding: 25px;
     border-radius: 25px;
   }
+
+  #block-views-block-random-host-story-block .random-story {
+    margin-top: 80px;
+  }
+
   .random-story a {
     color: #FFF;
     text-decoration: none;
@@ -806,7 +850,7 @@ html {
   .zone-footer ul li a:hover {
     color: #FF671D;
   }
-  .footer-information {
+  #block-footerinformation, .footer-information {
     font-size: 0.77rem;
     margin: 40px 0;
   }
@@ -1402,3 +1446,13 @@ html {
     }
   }
   */
+
+  /* User logged in Fixes */
+
+  .user-logged-in .front h1.page-title::before {
+    margin-top: 260px;
+    left: -580px;
+  }
+  .user-logged-in #block-assistb5subtheme-local-tasks {
+    margin-top: 3em;
+  }

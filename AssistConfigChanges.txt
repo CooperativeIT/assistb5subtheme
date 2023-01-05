@@ -36,3 +36,7 @@ http://dev.assistsheffield.org.uk:8009/content/annual-review-anti-racist-stateme
 </div>
 </div>
 </div>
+
+8) Set the footer background to 'dark in the theme settings page
+
+9) Disabled the 'Footer' block in the blocks Admin page
