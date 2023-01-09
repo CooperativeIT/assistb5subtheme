@@ -45,3 +45,5 @@ This was an attempt to remove the 'contact' link in the footer when logged in.
 10) Core image module patch applied so that default images show up in Image styles admin pages. See composer.json for details
 
 11) Reconfigure the 'Our Partners' view into a bootstrap grid to look like all the others.
+
+12) Remove the 'more' link from views of Our partners and Our paid staff
