@@ -12074,13 +12074,13 @@ nav.navbar::before {
   position: relative;
 }
 
-#zone-postscript-first {
+.front #zone-postscript-first {
   background: #009ADE;
   position: relative;
   padding: 30px 0 50px 0;
 }
 
-#zone-postscript-first::before {
+.front #zone-postscript-first::before {
   content: "";
   height: 15px;
   background: url(/themes/custom/assistb5subtheme/images/slices.png) top center no-repeat;
@@ -12148,7 +12148,7 @@ nav.navbar::before {
   margin-top: 0px;
 }
 
-#zone-postscript-fourth {
+.front #zone-postscript-fourth {
   position: relative;
   background: #6ABF4B;
   color: #FFF;
@@ -12172,12 +12172,6 @@ nav.navbar::before {
   max-width: 960px;
 }
 
-#zone-postscript-first {
-  background: #009ADE;
-  position: relative;
-  padding: 30px 0 50px 0;
-}
-
 .quicktabs-tabpage, .tab-content {
   border: 3px solid #FF671D;
   border-radius: 10px;
@@ -12196,7 +12190,7 @@ nav.navbar::before {
   padding: 10px 10px 0 10px;
 }
 
-.tab-families, img {
+.tab-families img {
   margin-bottom: 20px;
   max-height: 105px;
   width: auto;
