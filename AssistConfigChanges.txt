@@ -39,4 +39,9 @@ http://dev.assistsheffield.org.uk:8009/content/annual-review-anti-racist-stateme
 
 8) Set the footer background to 'dark in the theme settings page
 
-9) Disabled the 'Footer' block in the blocks Admin page
+9) DONT disable the 'Footer' block in the blocks Admin page - as this removes the footer completely.
+This was an attempt to remove the 'contact' link in the footer when logged in.
+
+10) Core image module patch applied so that default images show up in Image styles admin pages. See composer.json for details
+
+11) Reconfigure the 'Our Partners' view into a bootstrap grid to look like all the others.
