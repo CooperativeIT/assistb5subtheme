@@ -330,12 +330,13 @@ html {
     line-height: 1.5em;
     margin-bottom: 20px;
   }
-  .block-main li::before {
+  /*.block-main li::before*/
+  article li::before {
     content: "";
     line-height: 1.5em;
     width: .5em;
     height: .5em;
-    background-color: #009ADE;
+    background-color: $primary;
     float: left;
     margin: .5em .35em 0;
     border-radius: 50%;

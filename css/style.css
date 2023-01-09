@@ -12305,7 +12305,8 @@ ul {
   margin-bottom: 20px;
 }
 
-.block-main li::before {
+/*.block-main li::before*/
+article li::before {
   content: "";
   line-height: 1.5em;
   width: 0.5em;
