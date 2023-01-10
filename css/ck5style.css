@@ -12354,6 +12354,10 @@ a > .ck-content code {
   justify-content: center;
   align-items: center;
 }
+.ck-content #block-views-block-random-host-story-block {
+  max-width: 960px;
+  margin: auto;
+}
 .ck-content .random-story {
   max-width: 60%;
   min-height: 200px;
@@ -12363,7 +12367,11 @@ a > .ck-content code {
   border-radius: 25px;
 }
 .ck-content #block-views-block-random-host-story-block .random-story {
-  margin-top: 80px;
+  max-width: 500px;
+  margin: auto;
+  position: absolute;
+  top: 20%;
+  left: 5%;
 }
 .ck-content .random-story a {
   color: #FFF;
