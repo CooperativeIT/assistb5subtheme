@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: -15px;
   }
 
-  #zone-postscript-second:before {
+  .front #zone-postscript-second:before {
     content: "";
     height: 150px;
     background: url(/themes/custom/assistb5subtheme/images/fleck-right.png) bottom left no-repeat;
@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
     right: -683px;
   }
 
-  #zone-postscript-first::after {
+  .front #zone-postscript-first::after {
     content: "";
     height: 15px;
     background: url(/themes/custom/assistb5subtheme/images/slices.png) bottom center no-repeat;
@@ -176,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
   /* temp */ height: 400px;
     padding-top: 0px;
   }
-  #zone-postscript-third::before {
+  .front #zone-postscript-third::before {
     content: "";
     height: 30px;
     background: url(/themes/custom/assistb5subtheme/images/wslice.png) top center no-repeat;
