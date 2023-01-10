@@ -9,6 +9,7 @@ $nav-tabs-link-active-bg: #FF671D !default;
 $nav-tabs-link-active-border-color: #FF671D !default;
 $donate-button: #FF671D !default;
 $donate-button-hover: #6ABF4B !default;
+$hover: #6ABF4B !default;
 
 @import 'variables_bootstrap';
 
@@ -63,6 +64,19 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     margin-top: 0px;
     background-position: 0px -25px;
+  }
+
+  nav .nav-link,
+  nav a:link, nav a:visited {
+    color: #000;
+  }
+
+  nav .nav-link:hover,
+  nav .nav-link:focus,
+  nav .dropdown-item:hover,
+  nav .dropdown-item:focus,
+  nav .dropdown-item.active {
+    background: $hover;
   }
   
   .responsive-menus-load-processed #zone-menu {
@@ -475,12 +489,16 @@ html {
     background: none !important;
   }
 
+  footer nav a:visited {
+    color:#FFF;
+  }
+
   /* Main Menu */
 
   #zone-menu ul.navbar-nav {
     margin: auto;
-    width: 70%;
   }
+
   #zone-footer-second ul.navbar-nav {
     flex-direction: row;
   }
