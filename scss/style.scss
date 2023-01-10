@@ -149,16 +149,18 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0px;
     right: -683px;
   }
-  #zone-postscript-second::before {
+
+  #zone-postscript-first::after {
     content: "";
     height: 15px;
-    background: url(/themes/custom/assistb5subtheme/images/slices.png) top center no-repeat;
+    background: url(/themes/custom/assistb5subtheme/images/slices.png) bottom center no-repeat;
     position: absolute;
-    top: 0;
+    bottom: 0; /*could go as low as -15px if needed */
     width: 100%;
     margin-top: 0px;
     background-position: 0px -25px;
   }
+  
   #zone-postscript-second .views-field.views-field-field-photo {
     margin-top:0;
     padding-top:20px;
