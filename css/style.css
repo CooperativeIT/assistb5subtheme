@@ -12183,18 +12183,19 @@ nav.navbar::before {
   margin: 1em 0 1em 0;
 }
 
-.quicktabs-tabpage, .tab-content {
+.quicktabs-tabpage,
+#views-bootstrap-tab-views-bootstrap-tabs-block-1 .tab-content {
   border: 3px solid #FF671D;
   border-radius: 0 0 10px 10px;
   padding: 50px 20px;
   color: #fff;
 }
 
-.nav-tabs, .media-library-view--widget .view-header {
+#views-bootstrap-tab-views-bootstrap-tabs-block-1 .nav-tabs, #views-bootstrap-tab-views-bootstrap-tabs-block-1 .media-library-view--widget .view-header, .media-library-view--widget #views-bootstrap-tab-views-bootstrap-tabs-block-1 .view-header {
   border: none;
 }
 
-.nav-link:hover, .media-library-view--widget .view-header a:hover {
+#views-bootstrap-tab-views-bootstrap-tabs-block-1 .nav-link:hover, #views-bootstrap-tab-views-bootstrap-tabs-block-1 .media-library-view--widget .view-header a:hover, .media-library-view--widget .view-header #views-bootstrap-tab-views-bootstrap-tabs-block-1 a:hover {
   background-color: #FF671D;
   border-color: #FF671D !important;
 }

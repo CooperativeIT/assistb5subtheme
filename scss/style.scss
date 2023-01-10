@@ -226,18 +226,19 @@ h1, h2, h3, h4, h5, h6 {
 
 //Donation Tabs
 
-.quicktabs-tabpage, .tab-content {
+.quicktabs-tabpage, 
+#views-bootstrap-tab-views-bootstrap-tabs-block-1 .tab-content {
     border: 3px solid #FF671D;
     border-radius: 0 0 10px 10px;
     padding: 50px 20px;
     color: #fff;
 }
 
-.nav-tabs {
+#views-bootstrap-tab-views-bootstrap-tabs-block-1 .nav-tabs {
   border: none;
 }
 
-.nav-link:hover {
+#views-bootstrap-tab-views-bootstrap-tabs-block-1 .nav-link:hover {
   background-color: $nav-tabs-link-active-bg;
   border-color: $nav-tabs-link-active-bg !important;
 }
