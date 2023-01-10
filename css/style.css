@@ -12179,6 +12179,10 @@ nav.navbar::before {
   max-width: 960px;
 }
 
+.eu-cookie-compliance-buttons {
+  margin: 1em 0 1em 0;
+}
+
 .quicktabs-tabpage, .tab-content {
   border: 3px solid #FF671D;
   border-radius: 10px;
