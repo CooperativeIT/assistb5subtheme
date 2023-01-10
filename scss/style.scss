@@ -93,7 +93,8 @@ h1, h2, h3, h4, h5, h6 {
   #block-views-block-our-staff-block,
   #block-views-block-asylum-seekers-tell-their-stories-block-1-2,
   #block-views-block-faqs-legacy-block,
-  #views-bootstrap-stories-block {
+  #views-bootstrap-stories-block,
+  #views-bootstrap-tab-views-bootstrap-tabs-block-1 {
     margin: auto;
     max-width: 960px;
   }
@@ -214,6 +215,11 @@ h1, h2, h3, h4, h5, h6 {
   #zone-footer-first, #zone-footer-second {
   margin: auto;
   max-width: 960px;
+}
+
+//Cookie Compliance
+.eu-cookie-compliance-buttons {
+  margin: 1em 0 1em 0;
 }
 
 //Donation Tabs
