@@ -12097,7 +12097,7 @@ nav.navbar::before {
   margin-top: -15px;
 }
 
-#zone-postscript-second:before {
+.front #zone-postscript-second:before {
   content: "";
   height: 150px;
   background: url(/themes/custom/assistb5subtheme/images/fleck-right.png) bottom left no-repeat;
@@ -12108,7 +12108,7 @@ nav.navbar::before {
   right: -683px;
 }
 
-#zone-postscript-first::after {
+.front #zone-postscript-first::after {
   content: "";
   height: 15px;
   background: url(/themes/custom/assistb5subtheme/images/slices.png) bottom center no-repeat;
@@ -12133,7 +12133,7 @@ nav.navbar::before {
   padding-top: 0px;
 }
 
-#zone-postscript-third::before {
+.front #zone-postscript-third::before {
   content: "";
   height: 30px;
   background: url(/themes/custom/assistb5subtheme/images/wslice.png) top center no-repeat;
@@ -12898,6 +12898,10 @@ label.option {
 /* Quicktab */
 #views-bootstrap-tab-views-bootstrap-tabs-block-1 button {
   border-radius: 10px 10px 0 0;
+}
+
+.views-field span.btn, .views-field span.button, .views-field .node-preview-container span.node-preview-backlink, .node-preview-container .views-field span.node-preview-backlink {
+  padding: 0;
 }
 
 /*

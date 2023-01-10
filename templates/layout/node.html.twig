@@ -90,18 +90,20 @@
 
 {#
 /**
-* {% if display_submitted %}
+* 
 *   <!--<footer class="node__meta">
 *      {{ author_picture }}
 * 
 #}
+{% if display_submitted %}
 {% set createdDate = node.getCreatedTime()|format_date('submitted_date') %}
      <div{{ author_attributes.addClass('node__submitted') }}>
         {{ createdDate }}
      </div>
+{% endif %}
 {#
 *   </footer>-->
-*  {% endif %}
+*  
 **/
 #}
   <div{{ content_attributes.addClass('node__content') }}>
