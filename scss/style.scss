@@ -436,6 +436,14 @@ html {
     padding-top: 40px;
   }
 
+  footer.footer-dark a:hover {
+    color: $nav-tabs-link-active-bg;
+  }
+  footer .dropdown-item:hover,
+  footer .dropdown-item:focus,
+  footer .dropdown-item.active {
+    background: none !important;
+  }
 
   /* Main Menu */
 

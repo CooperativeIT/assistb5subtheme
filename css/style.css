@@ -12420,6 +12420,18 @@ footer::before {
   padding-top: 40px;
 }
 
+footer.footer-dark a:hover {
+  color: #FF671D;
+}
+
+footer .dropdown-item:hover,
+footer .dropdown-item:focus,
+footer .dropdown-item.active,
+footer .media-library-view--widget .view-header a.dropdown-item.is-active,
+.media-library-view--widget .view-header footer a.dropdown-item.is-active {
+  background: none !important;
+}
+
 /* Main Menu */
 #zone-menu ul.navbar-nav {
   margin: auto;
