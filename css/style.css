@@ -12615,12 +12615,12 @@ div.sf-accordion-toggle.sf-style-white a.sf-expanded {
   padding: 10px 1em 50px 1em;
 }
 
-/*.front .zone-content-wrapper,
+/*.front .zone-content-wrapper,*/
 .front div.order-1 {
   background: url(/themes/custom/assistb5subtheme/images/header_splash.svg) no-repeat;
-  background-position: center 10px ;
+  background-position: center 10px;
 }
-*/
+
 .front .field-name-body {
   padding-top: 40px;
 }
