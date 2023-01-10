@@ -12304,7 +12304,8 @@ ul {
   margin-bottom: 20px;
 }
 
-.block-main li::before {
+/*.block-main li::before*/
+article li::before {
   content: "";
   line-height: 1.5em;
   width: 0.5em;
@@ -13045,15 +13046,15 @@ footer.submitted {
 }
 */
 /* Blockquote */
-/*
 blockquote {
-  background: rgba(169,227,247,0.24);
+  background: rgba(169, 227, 247, 0.24);
   border-left: 10px solid #009ADE;
   margin: 0em 0px;
   padding: 1em 10px;
-  quotes: "\201C""\201D";
+  quotes: "“" "”";
   margin-bottom: 20px;
 }
+
 blockquote:before {
   color: #009ADE;
   font-size: 4em;
@@ -13062,19 +13063,22 @@ blockquote:before {
   vertical-align: -0.4em;
   content: open-quote;
 }
+
 blockquote:after {
-    color: #009ADE;
+  color: #009ADE;
   font-size: 1.4em;
 }
+
 blockquote p {
   display: inline;
   margin-bottom: 20px;
-    color: #000;
+  color: #000;
 }
+
 blockquote p:not(:last-child) {
   float: left;
 }
-*/
+
 /* Events */
 /*
 .view-events .views-field-title ,
