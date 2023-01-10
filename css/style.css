@@ -12985,6 +12985,10 @@ ul.quicktabs-tabs {
 }
 */
 /* News page */
+.node__submitted {
+  color: #009ADE;
+}
+
 /*
 .views-field-created,
 footer.submitted {
