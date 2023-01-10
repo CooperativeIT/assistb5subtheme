@@ -12046,7 +12046,8 @@ nav.navbar::before {
 #block-views-block-leadership-team-block,
 #block-views-block-our-staff-block,
 #block-views-block-asylum-seekers-tell-their-stories-block-1-2,
-#block-views-block-faqs-legacy-block {
+#block-views-block-faqs-legacy-block,
+#views-bootstrap-stories-block {
   margin: auto;
   max-width: 960px;
 }
