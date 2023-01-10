@@ -329,12 +329,13 @@ html {
     line-height: 1.5em;
     margin-bottom: 20px;
   }
-  .block-main li::before {
+  /*.block-main li::before*/
+  article li::before {
     content: "";
     line-height: 1.5em;
     width: .5em;
     height: .5em;
-    background-color: #009ADE;
+    background-color: $primary;
     float: left;
     margin: .5em .35em 0;
     border-radius: 50%;
@@ -1043,17 +1044,17 @@ html {
   }
   */
   /* Blockquote */
-  /*
+ 
   blockquote {
     background: rgba(169,227,247,0.24);
-    border-left: 10px solid #009ADE;
+    border-left: 10px solid $primary;
     margin: 0em 0px;
     padding: 1em 10px;
     quotes: "\201C""\201D";
     margin-bottom: 20px;
   }
   blockquote:before {
-    color: #009ADE;
+    color: $primary;
     font-size: 4em;
     line-height: 0.1em;
     margin-right: 0.25em;
@@ -1061,7 +1062,7 @@ html {
     content: open-quote;
   }
   blockquote:after {
-      color: #009ADE;
+      color: $primary;
     font-size: 1.4em;
   }
   blockquote p {
@@ -1072,7 +1073,7 @@ html {
   blockquote p:not(:last-child) {
     float: left;
   }
-  */
+
   /* Events */
   /*
   .view-events .views-field-title ,
