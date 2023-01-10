@@ -7,6 +7,8 @@ $primary: #009ADE;
 $dark: #333E48;
 $nav-tabs-link-active-bg: #FF671D !default;
 $nav-tabs-link-active-border-color: #FF671D !default;
+$donate-button: #FF671D !default;
+$donate-button-hover: #6ABF4B !default;
 
 @import 'variables_bootstrap';
 
@@ -414,7 +416,7 @@ html {
   }
   
   .header-contact .header-donate:hover {
-    background: #6ABF4B;
+    background: $donate-button-hover;
   }
   /*
   p.share-world {
@@ -919,16 +921,20 @@ html {
   
 
   }
-  .donate-block-action {
+  */
+  #block-donateblockaction {
     text-align: center;
   }
+  /*
   .donate-tab-content img {
     margin-bottom: 20px;
     max-height: 105px;
         width: auto;}
-  .donate-block-action .content a {
+  */
+
+  #block-donateblockaction a {
     color: #FFF;
-    background-color: #FF671D;
+    background-color: $donate-button;
     padding: 20px;
     font-size: 2em;
     font-family: 'Cabin', sans-serif;
@@ -940,10 +946,10 @@ html {
     display: inline-block;
     
   }
-  .donate-block-action .content a:hover {
-    background: #6ABF4B;
+  #block-donateblockaction a:hover {
+    background: $donate-button-hover;
   }
-  */
+
   /* Progress bar */
   /*
   .webform-progressbar-page .webform-progressbar-page-label {
