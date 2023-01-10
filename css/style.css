@@ -12898,6 +12898,10 @@ label.option {
   border-radius: 10px 10px 0 0;
 }
 
+.views-field span.btn, .views-field span.button, .views-field .node-preview-container span.node-preview-backlink, .node-preview-container .views-field span.node-preview-backlink {
+  padding: 0;
+}
+
 /*
 .monthly-donation h2.block-title {
   color: #FFF;
