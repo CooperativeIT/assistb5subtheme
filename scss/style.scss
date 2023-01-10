@@ -726,7 +726,13 @@ html {
     justify-content: center;
     align-items: center;
   }
-  .random-story{
+
+  #block-views-block-random-host-story-block {
+    max-width: 960px;
+    margin: auto;
+  }
+
+  .random-story {
     max-width: 60%;
     min-height: 200px;
     background: rgba(0,0,0,0.5);
@@ -736,7 +742,11 @@ html {
   }
 
   #block-views-block-random-host-story-block .random-story {
-    margin-top: 80px;
+    max-width: 500px;
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    left: 5%;
   }
 
   .random-story a {
