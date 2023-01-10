@@ -12183,11 +12183,21 @@ nav.navbar::before {
   margin: 1em 0 1em 0;
 }
 
-.quicktabs-tabpage, .tab-content {
+.quicktabs-tabpage,
+#views-bootstrap-tab-views-bootstrap-tabs-block-1 .tab-content {
   border: 3px solid #FF671D;
-  border-radius: 10px;
+  border-radius: 0 0 10px 10px;
   padding: 50px 20px;
   color: #fff;
+}
+
+#views-bootstrap-tab-views-bootstrap-tabs-block-1 .nav-tabs, #views-bootstrap-tab-views-bootstrap-tabs-block-1 .media-library-view--widget .view-header, .media-library-view--widget #views-bootstrap-tab-views-bootstrap-tabs-block-1 .view-header {
+  border: none;
+}
+
+#views-bootstrap-tab-views-bootstrap-tabs-block-1 .nav-link:hover, #views-bootstrap-tab-views-bootstrap-tabs-block-1 .media-library-view--widget .view-header a:hover, .media-library-view--widget .view-header #views-bootstrap-tab-views-bootstrap-tabs-block-1 a:hover {
+  background-color: #FF671D;
+  border-color: #FF671D !important;
 }
 
 .donate-tab-content {
@@ -12208,13 +12218,14 @@ nav.navbar::before {
 }
 
 #views-bootstrap-tab-views-bootstrap-tabs-block-1 li.nav-item {
-  border: 1px solid #FFF;
-  border-bottom-color: rgb(255, 255, 255);
+  border: 3px solid #FF671D;
+  /*border-bottom-color: rgb(255, 255, 255);*/
   border-bottom-style: solid;
   border-bottom-width: 2px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom: 0px;
+  border-left-width: 1px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom: none;
   color: #FFF;
   text-decoration: none;
 }
@@ -12883,6 +12894,10 @@ label.option {
 }
 
 /* Quicktab */
+#views-bootstrap-tab-views-bootstrap-tabs-block-1 button {
+  border-radius: 10px 10px 0 0;
+}
+
 /*
 .monthly-donation h2.block-title {
   color: #FFF;
