@@ -226,10 +226,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .quicktabs-tabpage, .tab-content {
     border: 3px solid #FF671D;
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
     padding: 50px 20px;
     color: #fff;
 }
+
+.nav-tabs {
+  border: none;
+}
+
+.nav-link:hover {
+  background-color: $nav-tabs-link-active-bg;
+  border-color: $nav-tabs-link-active-bg !important;
+}
+
 
 .donate-tab-content {
     display: flex;
@@ -249,13 +259,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #views-bootstrap-tab-views-bootstrap-tabs-block-1 li.nav-item {
-    border: 1px solid #FFF;
-      border-bottom-color: rgb(255, 255, 255);
+    border: 3px solid  #FF671D;
+      /*border-bottom-color: rgb(255, 255, 255);*/
       border-bottom-style: solid;
       border-bottom-width: 2px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom: 0px;
+      border-left-width: 1px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom: none;
     color: #FFF;
     text-decoration: none;
   }
@@ -882,6 +893,11 @@ html {
     margin: 40px 0;
   }
   /* Quicktab */
+
+  #views-bootstrap-tab-views-bootstrap-tabs-block-1 button {
+    border-radius: 10px 10px 0 0;
+  }
+
   /*
   .monthly-donation h2.block-title {
     color: #FFF;
