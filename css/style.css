@@ -12047,7 +12047,8 @@ nav.navbar::before {
 #block-views-block-our-staff-block,
 #block-views-block-asylum-seekers-tell-their-stories-block-1-2,
 #block-views-block-faqs-legacy-block,
-#views-bootstrap-stories-block {
+#views-bootstrap-stories-block,
+#views-bootstrap-tab-views-bootstrap-tabs-block-1 {
   margin: auto;
   max-width: 960px;
 }
@@ -12176,6 +12177,10 @@ nav.navbar::before {
 #zone-footer-first, #zone-footer-second {
   margin: auto;
   max-width: 960px;
+}
+
+.eu-cookie-compliance-buttons {
+  margin: 1em 0 1em 0;
 }
 
 .quicktabs-tabpage, .tab-content {
@@ -12717,6 +12722,11 @@ button:hover, input[type=reset]:hover, input[type=submit]:hover, input[type=butt
   align-items: center;
 }
 
+#block-views-block-random-host-story-block {
+  max-width: 960px;
+  margin: auto;
+}
+
 .random-story {
   max-width: 60%;
   min-height: 200px;
@@ -12727,7 +12737,11 @@ button:hover, input[type=reset]:hover, input[type=submit]:hover, input[type=butt
 }
 
 #block-views-block-random-host-story-block .random-story {
-  margin-top: 80px;
+  max-width: 500px;
+  margin: auto;
+  position: absolute;
+  top: 20%;
+  left: 5%;
 }
 
 .random-story a {
@@ -12924,31 +12938,35 @@ ul.quicktabs-tabs {
 
 
 }
-.donate-block-action {
+*/
+#block-donateblockaction {
   text-align: center;
 }
+
+/*
 .donate-tab-content img {
   margin-bottom: 20px;
   max-height: 105px;
       width: auto;}
-.donate-block-action .content a {
+*/
+#block-donateblockaction a {
   color: #FFF;
   background-color: #FF671D;
   padding: 20px;
   font-size: 2em;
-  font-family: 'Cabin', sans-serif;
+  font-family: "Cabin", sans-serif;
   font-weight: 400;
   line-height: 1.5;
   text-decoration: none;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   display: inline-block;
-
 }
-.donate-block-action .content a:hover {
+
+#block-donateblockaction a:hover {
   background: #6ABF4B;
 }
-*/
+
 /* Progress bar */
 /*
 .webform-progressbar-page .webform-progressbar-page-label {

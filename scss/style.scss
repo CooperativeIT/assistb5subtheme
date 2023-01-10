@@ -7,6 +7,8 @@ $primary: #009ADE;
 $dark: #333E48;
 $nav-tabs-link-active-bg: #FF671D !default;
 $nav-tabs-link-active-border-color: #FF671D !default;
+$donate-button: #FF671D !default;
+$donate-button-hover: #6ABF4B !default;
 
 @import 'variables_bootstrap';
 
@@ -91,7 +93,8 @@ h1, h2, h3, h4, h5, h6 {
   #block-views-block-our-staff-block,
   #block-views-block-asylum-seekers-tell-their-stories-block-1-2,
   #block-views-block-faqs-legacy-block,
-  #views-bootstrap-stories-block {
+  #views-bootstrap-stories-block,
+  #views-bootstrap-tab-views-bootstrap-tabs-block-1 {
     margin: auto;
     max-width: 960px;
   }
@@ -214,6 +217,11 @@ h1, h2, h3, h4, h5, h6 {
   #zone-footer-first, #zone-footer-second {
   margin: auto;
   max-width: 960px;
+}
+
+//Cookie Compliance
+.eu-cookie-compliance-buttons {
+  margin: 1em 0 1em 0;
 }
 
 //Donation Tabs
@@ -416,7 +424,7 @@ html {
   }
   
   .header-contact .header-donate:hover {
-    background: #6ABF4B;
+    background: $donate-button-hover;
   }
   /*
   p.share-world {
@@ -720,7 +728,13 @@ html {
     justify-content: center;
     align-items: center;
   }
-  .random-story{
+
+  #block-views-block-random-host-story-block {
+    max-width: 960px;
+    margin: auto;
+  }
+
+  .random-story {
     max-width: 60%;
     min-height: 200px;
     background: rgba(0,0,0,0.5);
@@ -730,7 +744,11 @@ html {
   }
 
   #block-views-block-random-host-story-block .random-story {
-    margin-top: 80px;
+    max-width: 500px;
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    left: 5%;
   }
 
   .random-story a {
@@ -921,16 +939,20 @@ html {
   
 
   }
-  .donate-block-action {
+  */
+  #block-donateblockaction {
     text-align: center;
   }
+  /*
   .donate-tab-content img {
     margin-bottom: 20px;
     max-height: 105px;
         width: auto;}
-  .donate-block-action .content a {
+  */
+
+  #block-donateblockaction a {
     color: #FFF;
-    background-color: #FF671D;
+    background-color: $donate-button;
     padding: 20px;
     font-size: 2em;
     font-family: 'Cabin', sans-serif;
@@ -942,10 +964,10 @@ html {
     display: inline-block;
     
   }
-  .donate-block-action .content a:hover {
-    background: #6ABF4B;
+  #block-donateblockaction a:hover {
+    background: $donate-button-hover;
   }
-  */
+
   /* Progress bar */
   /*
   .webform-progressbar-page .webform-progressbar-page-label {
