@@ -85,7 +85,12 @@ h1, h2, h3, h4, h5, h6 {
   #block-assistb5subtheme-content,
   #block-assistb5subtheme-breadcrumbs,
   #block-assistb5subtheme-page-title,
-  #block-assistb5subtheme-local-tasks {
+  #block-assistb5subtheme-local-tasks,
+  #block-views-block-trustees-block,
+  #block-views-block-leadership-team-block,
+  #block-views-block-our-staff-block,
+  #block-views-block-asylum-seekers-tell-their-stories-block-1-2,
+  #block-views-block-faqs-legacy-block {
     margin: auto;
     max-width: 960px;
   }
@@ -118,12 +123,12 @@ h1, h2, h3, h4, h5, h6 {
   #zone-postscript-second {
     position: relative;
   } 
-  #zone-postscript-first {
+  .front #zone-postscript-first {
     background: #009ADE;
     position: relative;
     padding: 30px 0 50px 0;
   }
-  #zone-postscript-first::before {
+  .front #zone-postscript-first::before {
     content: "";
     height: 15px;
     background: url(/themes/custom/assistb5subtheme/images/slices.png) top center no-repeat;
@@ -185,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     margin-top: 0px;
   }
-  #zone-postscript-fourth {
+  .front #zone-postscript-fourth {
     position: relative;
     background: #6ABF4B;
     color: #FFF;
@@ -210,12 +215,6 @@ h1, h2, h3, h4, h5, h6 {
 
 //Donation Tabs
 
-#zone-postscript-first {
-    background: #009ADE;
-    position: relative;
-    padding: 30px 0 50px 0;
-}
-
 .quicktabs-tabpage, .tab-content {
     border: 3px solid #FF671D;
     border-radius: 10px;
@@ -234,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 10px 0 10px;
 }
 
-.tab-families, img {
+.tab-families img {
     margin-bottom: 20px;
     max-height: 105px;
     width: auto;
@@ -442,6 +441,14 @@ html {
     padding-top: 40px;
   }
 
+  footer.footer-dark a:hover {
+    color: $nav-tabs-link-active-bg;
+  }
+  footer .dropdown-item:hover,
+  footer .dropdown-item:focus,
+  footer .dropdown-item.active {
+    background: none !important;
+  }
 
   /* Main Menu */
 
