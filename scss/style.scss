@@ -217,6 +217,7 @@ h1, h2, h3, h4, h5, h6 {
   #zone-footer-first, #zone-footer-second {
   margin: auto;
   max-width: 960px;
+  padding: 1em;
 }
 
 //Cookie Compliance
@@ -627,21 +628,23 @@ html {
   }
   
   /* Front Content */
-  .zone-content {
-    padding: 10px 0 50px 0;
+  #zone-content {
+    padding: 10px 1em 50px 1em;
   }
-  .front .zone-content-wrapper,
+  /*.front .zone-content-wrapper,
   .front div.order-1 {
     background: url(/themes/custom/assistb5subtheme/images/header_splash.svg) no-repeat;
     background-position: center 10px ;
   }
+  */
   .front .field-name-body {
     padding-top: 40px;
   } 
+  /*
   .front .zone-content {
     text-align: center;
-    
   }
+  */
   .field-name-field-image {
     margin: 20px 0px;
   }
