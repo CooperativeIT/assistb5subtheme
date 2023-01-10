@@ -34,6 +34,7 @@
   /* rtl:end:remove */
   @import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
   /* Zone Backgrounds */
+  /*.block-main li::before*/
   /*
   p.share-world {
     font-size: 0.833333333rem;
@@ -223,30 +224,12 @@
 
 
   }
-  .donate-block-action {
-    text-align: center;
-  }
+  */
+  /*
   .donate-tab-content img {
     margin-bottom: 20px;
     max-height: 105px;
         width: auto;}
-  .donate-block-action .content a {
-    color: #FFF;
-    background-color: #FF671D;
-    padding: 20px;
-    font-size: 2em;
-    font-family: 'Cabin', sans-serif;
-    font-weight: 400;
-    line-height: 1.5;
-    text-decoration: none;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    display: inline-block;
-
-  }
-  .donate-block-action .content a:hover {
-    background: #6ABF4B;
-  }
   */
   /* Progress bar */
   /*
@@ -346,36 +329,6 @@
   }
   */
   /* Blockquote */
-  /*
-  blockquote {
-    background: rgba(169,227,247,0.24);
-    border-left: 10px solid #009ADE;
-    margin: 0em 0px;
-    padding: 1em 10px;
-    quotes: "\201C""\201D";
-    margin-bottom: 20px;
-  }
-  blockquote:before {
-    color: #009ADE;
-    font-size: 4em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em;
-    content: open-quote;
-  }
-  blockquote:after {
-      color: #009ADE;
-    font-size: 1.4em;
-  }
-  blockquote p {
-    display: inline;
-    margin-bottom: 20px;
-      color: #000;
-  }
-  blockquote p:not(:last-child) {
-    float: left;
-  }
-  */
   /* Events */
   /*
   .view-events .views-field-title ,
@@ -11945,7 +11898,9 @@ a > .ck-content code {
 .ck-content #block-views-block-leadership-team-block,
 .ck-content #block-views-block-our-staff-block,
 .ck-content #block-views-block-asylum-seekers-tell-their-stories-block-1-2,
-.ck-content #block-views-block-faqs-legacy-block {
+.ck-content #block-views-block-faqs-legacy-block,
+.ck-content #views-bootstrap-stories-block,
+.ck-content #views-bootstrap-tab-views-bootstrap-tabs-block-1 {
   margin: auto;
   max-width: 960px;
 }
@@ -12058,6 +12013,9 @@ a > .ck-content code {
   margin: auto;
   max-width: 960px;
 }
+.ck-content .eu-cookie-compliance-buttons {
+  margin: 1em 0 1em 0;
+}
 .ck-content .quicktabs-tabpage, .ck-content .tab-content {
   border: 3px solid #FF671D;
   border-radius: 10px;
@@ -12162,7 +12120,7 @@ a > .ck-content code {
   line-height: 1.5em;
   margin-bottom: 20px;
 }
-.ck-content .block-main li::before {
+.ck-content article li::before {
   content: "";
   line-height: 1.5em;
   width: 0.5em;
@@ -12521,6 +12479,56 @@ a > .ck-content code {
 .ck-content #block-footerinformation, .ck-content .footer-information {
   font-size: 0.77rem;
   margin: 40px 0;
+}
+.ck-content #block-donateblockaction {
+  text-align: center;
+}
+.ck-content #block-donateblockaction a {
+  color: #FFF;
+  background-color: #FF671D;
+  padding: 20px;
+  font-size: 2em;
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: inline-block;
+}
+.ck-content #block-donateblockaction a:hover {
+  background: #6ABF4B;
+}
+.ck-content .node__submitted {
+  color: #009ADE;
+}
+.ck-content blockquote {
+  background: rgba(169, 227, 247, 0.24);
+  border-left: 10px solid #009ADE;
+  margin: 0em 0px;
+  padding: 1em 10px;
+  quotes: "“" "”";
+  margin-bottom: 20px;
+}
+.ck-content blockquote:before {
+  color: #009ADE;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+  content: open-quote;
+}
+.ck-content blockquote:after {
+  color: #009ADE;
+  font-size: 1.4em;
+}
+.ck-content blockquote p {
+  display: inline;
+  margin-bottom: 20px;
+  color: #000;
+}
+.ck-content blockquote p:not(:last-child) {
+  float: left;
 }
 .ck-content .user-logged-in .front h1.page-title::before, .ck-content .user-logged-in .front .page-title.h1::before {
   margin-top: 260px;
