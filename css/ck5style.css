@@ -11940,7 +11940,12 @@ a > .ck-content code {
 .ck-content #block-assistb5subtheme-content,
 .ck-content #block-assistb5subtheme-breadcrumbs,
 .ck-content #block-assistb5subtheme-page-title,
-.ck-content #block-assistb5subtheme-local-tasks {
+.ck-content #block-assistb5subtheme-local-tasks,
+.ck-content #block-views-block-trustees-block,
+.ck-content #block-views-block-leadership-team-block,
+.ck-content #block-views-block-our-staff-block,
+.ck-content #block-views-block-asylum-seekers-tell-their-stories-block-1-2,
+.ck-content #block-views-block-faqs-legacy-block {
   margin: auto;
   max-width: 960px;
 }
@@ -11967,12 +11972,12 @@ a > .ck-content code {
 .ck-content #zone-postscript-second {
   position: relative;
 }
-.ck-content #zone-postscript-first {
+.ck-content .front #zone-postscript-first {
   background: #009ADE;
   position: relative;
   padding: 30px 0 50px 0;
 }
-.ck-content #zone-postscript-first::before {
+.ck-content .front #zone-postscript-first::before {
   content: "";
   height: 15px;
   background: url(/themes/custom/assistb5subtheme/images/slices.png) top center no-repeat;
@@ -12033,7 +12038,7 @@ a > .ck-content code {
   width: 100%;
   margin-top: 0px;
 }
-.ck-content #zone-postscript-fourth {
+.ck-content .front #zone-postscript-fourth {
   position: relative;
   background: #6ABF4B;
   color: #FFF;
@@ -12053,11 +12058,6 @@ a > .ck-content code {
   margin: auto;
   max-width: 960px;
 }
-.ck-content #zone-postscript-first {
-  background: #009ADE;
-  position: relative;
-  padding: 30px 0 50px 0;
-}
 .ck-content .quicktabs-tabpage, .ck-content .tab-content {
   border: 3px solid #FF671D;
   border-radius: 10px;
@@ -12073,7 +12073,7 @@ a > .ck-content code {
   text-align: center;
   padding: 10px 10px 0 10px;
 }
-.ck-content .tab-families, .ck-content img {
+.ck-content .tab-families img {
   margin-bottom: 20px;
   max-height: 105px;
   width: auto;
@@ -12258,6 +12258,16 @@ a > .ck-content code {
 .ck-content .zone-footer {
   padding-top: 40px;
 }
+.ck-content footer.footer-dark a:hover {
+  color: #FF671D;
+}
+.ck-content footer .dropdown-item:hover,
+.ck-content footer .dropdown-item:focus,
+.ck-content footer .dropdown-item.active,
+.ck-content footer .media-library-view--widget .view-header a.dropdown-item.is-active,
+.ck-content .media-library-view--widget .view-header footer a.dropdown-item.is-active {
+  background: none !important;
+}
 .ck-content #zone-menu ul.navbar-nav {
   margin: auto;
   width: 70%;
@@ -12381,6 +12391,7 @@ a > .ck-content code {
 .ck-content #block-views-block-random-homepage-story-block,
 .ck-content #block-views-block-random-host-story-block {
   position: relative;
+  height: 520px;
   display: flex;
   justify-content: center;
   align-items: center;
