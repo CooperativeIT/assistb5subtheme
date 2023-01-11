@@ -501,7 +501,15 @@ html {
 
   #zone-footer-second ul.navbar-nav {
     flex-direction: row;
+    flex-wrap: wrap;
   }
+
+  @media screen and (max-width: 840px) {
+    #zone-footer-second ul.navbar-nav {
+      flex-direction: column;
+    }
+  }
+
   #zone-footer-second .dropdown-menu {
     display: block;
     border: none;
