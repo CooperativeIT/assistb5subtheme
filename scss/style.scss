@@ -367,6 +367,12 @@ html {
     line-height: 1.5em;
     margin-bottom: 20px;
   }
+
+  ol {
+    list-style: none;
+    padding: 0;
+  }
+
   /*.block-main li::before*/
   article li::before {
     content: "";
