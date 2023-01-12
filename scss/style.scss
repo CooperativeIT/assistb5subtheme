@@ -367,6 +367,12 @@ html {
     line-height: 1.5em;
     margin-bottom: 20px;
   }
+
+  ol {
+    list-style: none;
+    padding: 0;
+  }
+
   /*.block-main li::before*/
   article li::before {
     content: "";
@@ -489,8 +495,9 @@ html {
     background: none !important;
   }
 
+  footer nav a:link, 
   footer nav a:visited {
-    color:#FFF;
+    color: #f8f9fa; /* same as footer dark a */
   }
 
   /* Main Menu */
