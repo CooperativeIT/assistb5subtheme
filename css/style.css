@@ -12220,6 +12220,9 @@ nav .media-library-view--widget .view-header a.dropdown-item.is-active,
 
 .donate-tab-content {
   display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
 }
 
 .tab-families, .tab-hours-home, .tab-hours-hospital {
@@ -12337,6 +12340,11 @@ ul {
   list-style: none;
   line-height: 1.5em;
   margin-bottom: 20px;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
 }
 
 /*.block-main li::before*/
@@ -12473,8 +12481,9 @@ footer .media-library-view--widget .view-header a.dropdown-item.is-active,
   background: none !important;
 }
 
+footer nav a:link,
 footer nav a:visited {
-  color: #FFF;
+  color: #f8f9fa; /* same as footer dark a */
 }
 
 /* Main Menu */
@@ -12484,8 +12493,14 @@ footer nav a:visited {
 
 #zone-footer-second ul.navbar-nav {
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
+@media screen and (max-width: 840px) {
+  #zone-footer-second ul.navbar-nav {
+    flex-direction: column;
+  }
+}
 #zone-footer-second .dropdown-menu {
   display: block;
   border: none;
@@ -13536,4 +13551,28 @@ td.recaptcha_label {
 
 .user-logged-in #block-assistb5subtheme-local-tasks {
   margin-top: 3em;
+}
+
+/*accordion */
+.accordion-item h2, .accordion-item .h2 {
+  padding-top: 0;
+  color: #fff;
+}
+
+.accordion-item a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.accordion {
+  --bs-accordion-btn-bg: #FF671D;
+  --bs-accordion-btn-focus-box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  --bs-accordion-active-bg: #6ABF4B;
+}
+
+.accordion-button:focus {
+  --bs-accordion-btn-focus-box-shadow: none;
 }/*# sourceMappingURL=style.css.map */
