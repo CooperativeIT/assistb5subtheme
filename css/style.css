@@ -12776,6 +12776,8 @@ button:hover, input[type=reset]:hover, input[type=submit]:hover, input[type=butt
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 960px;
+  margin: auto;
 }
 
 /*#block-views-block-random-host-story-block {
@@ -12784,7 +12786,7 @@ button:hover, input[type=reset]:hover, input[type=submit]:hover, input[type=butt
 }
 */
 .random-story {
-  max-width: 60%;
+  /*max-width: 60%;*/
   min-height: 200px;
   background: rgba(0, 0, 0, 0.5);
   color: #FFF;
@@ -12795,7 +12797,7 @@ button:hover, input[type=reset]:hover, input[type=submit]:hover, input[type=butt
 #block-views-block-random-host-story-block .random-story,
 #block-views-block-random-homepage-story-block .random-story {
   max-width: 500px;
-  margin: auto;
+  /*margin: auto;*/
   margin-right: 1em;
   position: absolute;
   top: 20%;
