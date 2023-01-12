@@ -261,6 +261,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .donate-tab-content {
     display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
 }
 
 .tab-families, .tab-hours-home, .tab-hours-hospital {

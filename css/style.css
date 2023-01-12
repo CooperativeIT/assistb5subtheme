@@ -12220,6 +12220,9 @@ nav .media-library-view--widget .view-header a.dropdown-item.is-active,
 
 .donate-tab-content {
   display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
 }
 
 .tab-families, .tab-hours-home, .tab-hours-hospital {
