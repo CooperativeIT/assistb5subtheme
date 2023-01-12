@@ -49,3 +49,5 @@ This was an attempt to remove the 'contact' link in the footer when logged in.
 12) Remove the 'more' link from views of Our partners and Our paid staff
 
 13) In the subtheme under 'appearance' - we need to enable the shortcut icon and add a path to the theme icon
+
+14) in the Random story view, need to set the background image css target to #zone-header-first no the id of the view
