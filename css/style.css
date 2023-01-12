@@ -12478,8 +12478,9 @@ footer .media-library-view--widget .view-header a.dropdown-item.is-active,
   background: none !important;
 }
 
+footer nav a:link,
 footer nav a:visited {
-  color: #FFF;
+  color: #f8f9fa; /* same as footer dark a */
 }
 
 /* Main Menu */
