@@ -13540,4 +13540,28 @@ td.recaptcha_label {
 
 .user-logged-in #block-assistb5subtheme-local-tasks {
   margin-top: 3em;
+}
+
+/*accordion */
+.accordion-item h2, .accordion-item .h2 {
+  padding-top: 0;
+  color: #fff;
+}
+
+.accordion-item a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.accordion {
+  --bs-accordion-btn-bg: #FF671D;
+  --bs-accordion-btn-focus-box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  --bs-accordion-active-bg: #6ABF4B;
+}
+
+.accordion-button:focus {
+  --bs-accordion-btn-focus-box-shadow: none;
 }/*# sourceMappingURL=style.css.map */
