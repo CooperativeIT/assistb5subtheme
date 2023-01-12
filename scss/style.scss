@@ -662,6 +662,15 @@ html {
   .header-contact li {
     display: inline-block;
   }
+
+  @include media-breakpoint-down(md) {
+    .logo {
+      text-align: center;
+    }
+    #block-headercontact .text-end {
+      text-align: center !important;
+    }
+  }
   
   /* Front Content */
   #zone-content:not(.front) {
