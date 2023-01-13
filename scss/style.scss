@@ -147,9 +147,9 @@ h1, h2, h3, h4, h5, h6 {
     left: -300px;
   }
 
-  #zone-postscript-second {
+  /*#zone-postscript-second {
     position: relative;
-  } 
+  } */
   .front #zone-postscript-first {
     background: #009ADE;
     position: relative;
@@ -166,14 +166,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .front #zone-postscript-second:before {
-    content: "";
+    content: none;
     height: 150px;
     background: url(/themes/custom/assistb5subtheme/images/fleck-right.png) bottom left no-repeat;
     position: absolute;
     top: 0;
     width: 100%;
     margin-top: 0px;
-    right: -683px;
+    /*right: -683px; */
+    background-size: cover;
   }
 
   .front #zone-postscript-first::after {

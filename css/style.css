@@ -12103,10 +12103,9 @@ nav .media-library-view--widget .view-header a.dropdown-item.is-active,
   left: -300px;
 }
 
-#zone-postscript-second {
+/*#zone-postscript-second {
   position: relative;
-}
-
+} */
 .front #zone-postscript-first {
   background: #009ADE;
   position: relative;
@@ -12124,14 +12123,15 @@ nav .media-library-view--widget .view-header a.dropdown-item.is-active,
 }
 
 .front #zone-postscript-second:before {
-  content: "";
+  content: none;
   height: 150px;
   background: url(/themes/custom/assistb5subtheme/images/fleck-right.png) bottom left no-repeat;
   position: absolute;
   top: 0;
   width: 100%;
   margin-top: 0px;
-  right: -683px;
+  /*right: -683px; */
+  background-size: cover;
 }
 
 .front #zone-postscript-first::after {
