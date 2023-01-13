@@ -138,9 +138,9 @@ h1, h2, h3, h4, h5, h6 {
     left: -300px;
   }
 
-  #zone-postscript-second {
+  /*#zone-postscript-second {
     position: relative;
-  } 
+  } */
   .front #zone-postscript-first {
     background: #009ADE;
     position: relative;
@@ -164,7 +164,8 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     width: 100%;
     margin-top: 0px;
-    right: -683px;
+    /*right: -683px; */
+    background-size: cover;
   }
 
   .front #zone-postscript-first::after {
@@ -1585,4 +1586,21 @@ html {
   }
   .accordion-button:focus {
     --bs-accordion-btn-focus-box-shadow: none;
+  }
+
+  @include media-breakpoint-down(lg) {
+    #block-assistb5subtheme-content,
+    #block-assistb5subtheme-breadcrumbs,
+    #block-assistb5subtheme-page-title,
+    #block-assistb5subtheme-local-tasks,
+    #block-views-block-trustees-block,
+    #block-views-block-leadership-team-block,
+    #block-views-block-our-staff-block,
+    #block-views-block-asylum-seekers-tell-their-stories-block-1-2,
+    #block-views-block-faqs-legacy-block,
+    #views-bootstrap-stories-block,
+    #views-bootstrap-tab-views-bootstrap-tabs-block-1,
+    #block-headercontact {
+      max-width: 100%;
+    }
   }
