@@ -12007,6 +12007,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   text-align: center;
 }
 
+@media (max-width: 991.98px) {
+  #zone-menu {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content; /*Allows menu to shrink on smaller screens*/
+    text-align: left;
+    margin-left: 1em;
+  }
+}
 nav.navbar::before {
   content: "";
   height: 15px;

@@ -55,6 +55,15 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
     text-align: center;
   }
+
+  @include media-breakpoint-down(lg) {
+    #zone-menu {
+      width: fit-content; /*Allows menu to shrink on smaller screens*/
+      text-align: left;
+      margin-left: 1em;
+    }
+  }
+
   nav.navbar::before {
     content: "";
     height: 15px;
