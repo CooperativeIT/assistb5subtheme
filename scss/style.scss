@@ -55,6 +55,15 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
     text-align: center;
   }
+
+  @include media-breakpoint-down(lg) {
+    #zone-menu {
+      width: fit-content; /*Allows menu to shrink on smaller screens*/
+      text-align: left;
+      margin-left: 1em;
+    }
+  }
+
   nav.navbar::before {
     content: "";
     height: 15px;
@@ -1588,19 +1597,14 @@ html {
     --bs-accordion-btn-focus-box-shadow: none;
   }
 
+  /* Grid views of e.g. stories, people
+  *In the view add a class of assist-item to the bootstrap row
+  */
   @include media-breakpoint-down(lg) {
-    #block-assistb5subtheme-content,
-    #block-assistb5subtheme-breadcrumbs,
-    #block-assistb5subtheme-page-title,
-    #block-assistb5subtheme-local-tasks,
-    #block-views-block-trustees-block,
-    #block-views-block-leadership-team-block,
-    #block-views-block-our-staff-block,
-    #block-views-block-asylum-seekers-tell-their-stories-block-1-2,
-    #block-views-block-faqs-legacy-block,
-    #views-bootstrap-stories-block,
-    #views-bootstrap-tab-views-bootstrap-tabs-block-1,
-    #block-headercontact {
-      max-width: 100%;
-    }
+  .assist-item
+  /*.assist-item .views-field-body,
+  .assist-item .views-field-title*/ {
+    text-align: center;
+    margin-bottom: 1em;;
   }
+}
