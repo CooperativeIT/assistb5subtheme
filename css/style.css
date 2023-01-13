@@ -13594,4 +13594,14 @@ td.recaptcha_label {
 
 .accordion-button:focus {
   --bs-accordion-btn-focus-box-shadow: none;
+}
+
+/* Grid views of e.g. stories, people
+*In the view add a class of assist-item to the bootstrap row
+*/
+@media (max-width: 991.98px) {
+  .assist-item {
+    text-align: center;
+    margin-bottom: 1em;
+  }
 }/*# sourceMappingURL=style.css.map */
