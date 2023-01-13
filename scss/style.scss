@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .front #zone-postscript-second:before {
-    content: "";
+    content: none;
     height: 150px;
     background: url(/themes/custom/assistb5subtheme/images/fleck-right.png) bottom left no-repeat;
     position: absolute;

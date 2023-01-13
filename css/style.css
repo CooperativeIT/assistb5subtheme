@@ -12123,7 +12123,7 @@ nav .media-library-view--widget .view-header a.dropdown-item.is-active,
 }
 
 .front #zone-postscript-second:before {
-  content: "";
+  content: none;
   height: 150px;
   background: url(/themes/custom/assistb5subtheme/images/fleck-right.png) bottom left no-repeat;
   position: absolute;
