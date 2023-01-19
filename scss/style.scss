@@ -1558,6 +1558,18 @@ html {
   ul.inline li.addtoany:before {
     display: none;
   }
+  */
+
+  .addtoanyfix {
+    display: flex;
+    justify-content: center;
+  }
+
+  .front span.addtoany_list {
+    display:none;
+  }
+
+  /*
   
   @media screen and (max-width: 360px) {
     ul.quicktabs-tabs li {
