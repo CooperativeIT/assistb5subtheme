@@ -13554,14 +13554,25 @@ td.recaptcha_label {
   ul.inline li.addtoany:before {
     display: none;
   }
-
-  @media screen and (max-width: 360px) {
-    ul.quicktabs-tabs li {
-      display: inline-block;
-      font-size: 14px;
-    }
-  }
   */
+.addtoanyfix {
+  display: flex;
+  justify-content: center;
+}
+
+.front span.addtoany_list {
+  display: none;
+}
+
+/*
+
+@media screen and (max-width: 360px) {
+  ul.quicktabs-tabs li {
+    display: inline-block;
+    font-size: 14px;
+  }
+}
+*/
 /* User logged in Fixes */
 .user-logged-in .front h1.page-title::before, .user-logged-in .front .page-title.h1::before {
   margin-top: 260px;
