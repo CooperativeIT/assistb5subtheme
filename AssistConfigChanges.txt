@@ -51,3 +51,27 @@ This was an attempt to remove the 'contact' link in the footer when logged in.
 13) In the subtheme under 'appearance' - we need to enable the shortcut icon and add a path to the theme icon
 
 14) in the Random story view, need to set the background image css target to #zone-header-first no the id of the view
+
+15) Add to any buttons front page: Block HTML
+<p>Share this with the world</p>
+<!--<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<ul>
+	<li><a class="a2a_button_facebook">&nbsp;</a></li>
+	<li><a class="a2a_button_twitter">&nbsp;</a></li>
+	<li><a class="a2a_button_pinterest">&nbsp;</a></li>
+	<li><a class="a2a_dd" href="https://www.addtoany.com/share">&nbsp;</a></li>
+</ul>
+</div>
+
+<p><a class="a2a_button_facebook"> <script async src="https://static.addtoany.com/menu/page.js"></script></a></p>
+-->
+
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style addtoanyfix" data-a2a-title="Assist Sheffield" data-a2a-url="https://assist.cooperativeit.co.uk/">
+<ul class="list-group list-group-horizontal">
+	<li list-group-item=""><a class="a2a_button_facebook">&nbsp;</a></li>
+	<li list-group-item=""><a class="a2a_button_twitter">&nbsp;</a></li>
+	<li list-group-item=""><a class="a2a_button_pinterest">&nbsp;</a></li>
+	<li list-group-item=""><a class="a2a_dd" href="https://www.addtoany.com/share">&nbsp;</a></li>
+</ul>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
