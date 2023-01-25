@@ -12150,9 +12150,9 @@ nav .media-library-view--widget .view-header a.dropdown-item.is-active,
   padding-top: 20px;
 }
 
-.front #zone-postscript-third {
+.front #zone-postscript-third, .front #zone-header-first {
   position: relative;
-  background: url(/themes/custom/assistb5subtheme/images/ps3bk.jpg) center center no-repeat;
+  background: rgba(0, 0, 0, 0.5);
   background-size: cover;
   /* temp */
   height: 400px;
@@ -12590,6 +12590,9 @@ span.nolink > .sf-sub-indicator {
     background: transparent;
     z-index: 100;
   }
+  .user-logged-in #block-assistb5subtheme-main-navigation ul.navbar-nav > li.nav-item:last-child {
+    top: -15px;
+  }
   /* #superfish-1 #menu-1023-1 a */
   #block-assistb5subtheme-main-navigation ul.navbar-nav > li.nav-item:last-child a {
     border: 0px;
@@ -12925,10 +12928,22 @@ button, input[type=reset], input[type=submit], input[type=button],
   display: none;
 }
 
-.webform-component label, .crm-block .crm-section label {
+.form-item, .form-actions {
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+/* .webform-component label, .crm-block .crm-section label */
+.form-item label {
   color: #009ADE;
   margin-bottom: 5px;
   display: inline-block;
+}
+
+.form-item label.form-required::after {
+  content: "*";
+  color: #f00;
+  margin-left: 0.255em;
 }
 
 .webform-component label.option, .crm-block .crm-section label.option {
@@ -13647,6 +13662,10 @@ td.recaptcha_label {
 /* Grid views of e.g. stories, people
 *In the view add a class of assist-item to the bootstrap row
 */
+.assist-item {
+  margin-bottom: 1em;
+}
+
 @media (max-width: 991.98px) {
   .assist-item {
     text-align: center;

@@ -193,9 +193,9 @@ h1, h2, h3, h4, h5, h6 {
     padding-top:20px;
   }
   
-  .front #zone-postscript-third {
+  .front #zone-postscript-third, .front #zone-header-first {
     position: relative;
-    background: url(/themes/custom/assistb5subtheme/images/ps3bk.jpg) center center no-repeat;
+    background: rgb(0,0,0,0.5);
     background-size: cover;
   /* temp */ height: 400px;
     padding-top: 0px;
@@ -615,6 +615,10 @@ html {
       z-index: 100;
     }
 
+    .user-logged-in #block-assistb5subtheme-main-navigation ul.navbar-nav > li.nav-item:last-child {
+      top: -15px;
+    }
+
     /* #superfish-1 #menu-1023-1 a */
     #block-assistb5subtheme-main-navigation ul.navbar-nav > li.nav-item:last-child a {
       border: 0px;
@@ -941,12 +945,23 @@ html {
     display: none;
   }
   
-  .webform-component label, .crm-block .crm-section label {
+  .form-item, .form-actions {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+  }
+
+  /* .webform-component label, .crm-block .crm-section label */
+  .form-item label {
     color: #009ADE;
     margin-bottom: 5px;
     display: inline-block;
   }
   
+  .form-item label.form-required::after {
+    content: '*';
+    color: #f00;
+    margin-left:0.255em;
+  }
   
   .webform-component label.option, .crm-block .crm-section label.option {
     color: #009ADE;
@@ -1653,6 +1668,10 @@ html {
   /* Grid views of e.g. stories, people
   *In the view add a class of assist-item to the bootstrap row
   */
+.assist-item {
+  margin-bottom:1em;
+}
+
   @include media-breakpoint-down(lg) {
   .assist-item
   /*.assist-item .views-field-body,
