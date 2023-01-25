@@ -75,3 +75,5 @@ This was an attempt to remove the 'contact' link in the footer when logged in.
 </ul>
 </div>
 <script async src="https://static.addtoany.com/menu/page.js"></script>
+
+16) To get the donate button in the top navigation, we need to add it as a menu item to the top nav

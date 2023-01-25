@@ -454,19 +454,26 @@ html {
   }
   
   .header-contact .header-donate {
-    display: block;
-    border: 0px;
-    color: #FFF;
-    background-color: #FF671D;
-    padding: 0.5em;
-    font-size: 1.4em;
-    font-family: 'Cabin', sans-serif;
-    font-weight: 400;
-    line-height: 1.5;
-    text-decoration: none;
-    border-radius: 10px;
-    border-bottom-right-radius: 10px;
-    margin-bottom: 20px;
+    display: none;
+  }
+
+  @include media-breakpoint-down(md) {
+
+    .header-contact .header-donate {
+      display: block;
+      border: 0px;
+      color: #FFF;
+      background-color: #FF671D;
+      padding: 0.5em;
+      font-size: 1.4em;
+      font-family: 'Cabin', sans-serif;
+      font-weight: 400;
+      line-height: 1.5;
+      text-decoration: none;
+      border-radius: 10px;
+      border-bottom-right-radius: 10px;
+      margin-bottom: 20px;
+    }
   }
   
   .header-contact .header-donate:hover {
@@ -579,14 +586,19 @@ html {
   */
 
   /* "Donate" menu link */
-  /*
+
+
+  #block-assistb5subtheme-main-navigation ul.navbar-nav li.nav-item:last-child,
   #superfish-1 li#menu-1023-1 {
     display: block;
     position: absolute;
     right: 0;
-    top: -10px;
+    top: -18px;
     background: transparent;
+    z-index: 100;
   }
+
+  #block-assistb5subtheme-main-navigation ul.navbar-nav li.nav-item:last-child a,
   #superfish-1 #menu-1023-1 a {
     border: 0px;
     color: #FFF;
@@ -601,10 +613,11 @@ html {
     border-bottom-right-radius: 10px;
   
   }
+  #block-assistb5subtheme-main-navigation li:last-child a:hover,
   #superfish-1 #menu-1023-1 a:hover {
     background: #6ABF4B;
   }
-  */
+ 
   /* Accordion Menu*/
   .sf-accordion-toggle {
     text-align: center;
@@ -722,7 +735,8 @@ html {
   #crm-container .CRM_Contribute_Form_Contribution_Confirm .crm-button.crm-button-type-upload.crm-i-button,
   #sliding-popup .popup-content #popup-buttons button,
   .views-field-text-link a,
-  .field-name-field-online-registration-link a{
+  .field-name-field-online-registration-link a,
+  #block-mainmenu ul.navbar-nav > li:last-child {
     display: inline-block;
     background: #FF671D;
     padding: 10px;
@@ -734,6 +748,11 @@ html {
     font-weight: 400;
     text-shadow: none;
   }
+ 
+  #block-mainmenu ul.navbar-nav > li:last-child {
+  height: fit-content;
+  }
+  
   .action-link.section.register_link-section a.button.crm-register-button,
   .crm-button.crm-button-type-upload.crm-i-button input.crm-form-submit{
     text-shadow: none !important;
