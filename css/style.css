@@ -12430,22 +12430,29 @@ article li::before {
   margin-bottom: 10px;
 }
 
+/* Donate Button is hidden in the top area on large screens */
 .header-contact .header-donate {
-  display: block;
-  border: 0px;
-  color: #FFF;
-  background-color: #FF671D;
-  padding: 0.5em;
-  font-size: 1.4em;
-  font-family: "Cabin", sans-serif;
-  font-weight: 400;
-  line-height: 1.5;
-  text-decoration: none;
-  border-radius: 10px;
-  border-bottom-right-radius: 10px;
-  margin-bottom: 20px;
+  display: none;
 }
 
+/* Move donate link to header on small screens */
+@media (max-width: 991.98px) {
+  .header-contact .header-donate {
+    display: block;
+    border: 0px;
+    color: #FFF;
+    background-color: #FF671D;
+    padding: 0.5em;
+    font-size: 1.4em;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+    border-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 20px;
+  }
+}
 .header-contact .header-donate:hover {
   background: #6ABF4B;
 }
@@ -12557,33 +12564,36 @@ span.nolink > .sf-sub-indicator {
   cursor: pointer;
 }
 */
-/* "Donate" menu link */
-/*
-#superfish-1 li#menu-1023-1 {
-  display: block;
-  position: absolute;
-  right: 0;
-  top: -10px;
-  background: transparent;
+/* "Donate" menu link - only show styled on large screens and above */
+/*#superfish-1 li#menu-1023-1 */
+@media (min-width: 992px) {
+  #block-assistb5subtheme-main-navigation ul.navbar-nav li.nav-item:last-child {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -4px;
+    background: transparent;
+    z-index: 100;
+  }
+  /* #superfish-1 #menu-1023-1 a */
+  #block-assistb5subtheme-main-navigation ul.navbar-nav li.nav-item:last-child a {
+    border: 0px;
+    color: #FFF;
+    background-color: #FF671D;
+    padding: 2em;
+    font-size: 1rem;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  /* #superfish-1 #menu-1023-1 a:hover */
+  #block-assistb5subtheme-main-navigation li:last-child a:hover {
+    background: #6ABF4B;
+  }
 }
-#superfish-1 #menu-1023-1 a {
-  border: 0px;
-  color: #FFF;
-  background-color: #FF671D;
-  padding: 2em;
-  font-size: 1rem;
-  font-family: 'Cabin', sans-serif;
-  font-weight: 400;
-  line-height: 1.5;
-  text-decoration: none;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-
-}
-#superfish-1 #menu-1023-1 a:hover {
-  background: #6ABF4B;
-}
-*/
 /* Accordion Menu*/
 .sf-accordion-toggle {
   text-align: center;
@@ -12699,6 +12709,7 @@ div.views-field-view-node-1 span.field-content {
   border: none;
 }
 
+/*Buttons - includes footer buttons*/
 a.o-action,
 .o-action a,
 .views-field-view-node a,
@@ -12706,7 +12717,8 @@ a.o-action,
 #crm-container .CRM_Contribute_Form_Contribution_Confirm .crm-button.crm-button-type-upload.crm-i-button,
 #sliding-popup .popup-content #popup-buttons button,
 .views-field-text-link a,
-.field-name-field-online-registration-link a {
+.field-name-field-online-registration-link a,
+#block-mainmenu ul.navbar-nav > li:last-child {
   display: inline-block;
   background: #FF671D;
   padding: 10px;
@@ -12717,6 +12729,16 @@ a.o-action,
   font-family: "Cabin", sans-serif;
   font-weight: 400;
   text-shadow: none;
+}
+
+/* Donate button in footer */
+#block-mainmenu ul.navbar-nav > li:last-child {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .action-link.section.register_link-section a.button.crm-register-button,
