@@ -12527,6 +12527,21 @@ footer nav a:visited {
   display: none;
 }
 
+/* Main Navigation */
+#block-assistb5subtheme-main-navigation ul.navbar-nav {
+  margin-bottom: 0.6em;
+  margin-left: 1em;
+  margin-top: -0.2em;
+}
+
+#block-assistb5subtheme-main-navigation ul.navbar-nav > li {
+  margin-right: 1em;
+}
+
+#block-assistb5subtheme-main-navigation ul.navbar-nav .dropdown-toggle::after {
+  margin-left: 0.65em;
+}
+
 /*
 .main-menu-superfish {
   font-size: 0.83rem;
@@ -12567,7 +12582,7 @@ span.nolink > .sf-sub-indicator {
 /* "Donate" menu link - only show styled on large screens and above */
 /*#superfish-1 li#menu-1023-1 */
 @media (min-width: 992px) {
-  #block-assistb5subtheme-main-navigation ul.navbar-nav li.nav-item:last-child {
+  #block-assistb5subtheme-main-navigation ul.navbar-nav > li.nav-item:last-child {
     display: block;
     position: absolute;
     right: 0;
@@ -12576,7 +12591,7 @@ span.nolink > .sf-sub-indicator {
     z-index: 100;
   }
   /* #superfish-1 #menu-1023-1 a */
-  #block-assistb5subtheme-main-navigation ul.navbar-nav li.nav-item:last-child a {
+  #block-assistb5subtheme-main-navigation ul.navbar-nav > li.nav-item:last-child a {
     border: 0px;
     color: #FFF;
     background-color: #FF671D;
@@ -12590,7 +12605,7 @@ span.nolink > .sf-sub-indicator {
     border-bottom-right-radius: 10px;
   }
   /* #superfish-1 #menu-1023-1 a:hover */
-  #block-assistb5subtheme-main-navigation li:last-child a:hover {
+  #block-assistb5subtheme-main-navigation ul.navbar-nav > li:last-child a:hover {
     background: #6ABF4B;
   }
 }
