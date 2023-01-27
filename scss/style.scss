@@ -1215,7 +1215,8 @@ html {
     border-left: 10px solid $primary;
     margin: 0em 0px;
     padding: 1em 10px;
-    quotes: "\201C""\201D";
+    /*quotes: "\201C""\201D";*/
+    quotes: '“' '”';
     margin-bottom: 20px;
   }
   blockquote:before {
